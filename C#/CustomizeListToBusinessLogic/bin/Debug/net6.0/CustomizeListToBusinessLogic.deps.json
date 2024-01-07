@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CustomizeListToBusinessLogic/1.0.0": {
+        "runtime": {
+          "CustomizeListToBusinessLogic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CustomizeListToBusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

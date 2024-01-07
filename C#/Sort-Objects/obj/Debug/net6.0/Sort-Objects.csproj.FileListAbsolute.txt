@@ -1,0 +1,14 @@
+C:\Users\youse\source\repos\Sort-Objects\bin\Debug\net6.0\Sort-Objects.exe
+C:\Users\youse\source\repos\Sort-Objects\bin\Debug\net6.0\Sort-Objects.deps.json
+C:\Users\youse\source\repos\Sort-Objects\bin\Debug\net6.0\Sort-Objects.runtimeconfig.json
+C:\Users\youse\source\repos\Sort-Objects\bin\Debug\net6.0\Sort-Objects.dll
+C:\Users\youse\source\repos\Sort-Objects\bin\Debug\net6.0\Sort-Objects.pdb
+C:\Users\youse\source\repos\Sort-Objects\obj\Debug\net6.0\Sort-Objects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\Sort-Objects\obj\Debug\net6.0\Sort-Objects.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\Sort-Objects\obj\Debug\net6.0\Sort-Objects.AssemblyInfo.cs
+C:\Users\youse\source\repos\Sort-Objects\obj\Debug\net6.0\Sort-Objects.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\Sort-Objects\obj\Debug\net6.0\Sort-Objects.dll
+C:\Users\youse\source\repos\Sort-Objects\obj\Debug\net6.0\refint\Sort-Objects.dll
+C:\Users\youse\source\repos\Sort-Objects\obj\Debug\net6.0\Sort-Objects.pdb
+C:\Users\youse\source\repos\Sort-Objects\obj\Debug\net6.0\Sort-Objects.genruntimeconfig.cache
+C:\Users\youse\source\repos\Sort-Objects\obj\Debug\net6.0\ref\Sort-Objects.dll

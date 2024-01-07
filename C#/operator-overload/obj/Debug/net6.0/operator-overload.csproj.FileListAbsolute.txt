@@ -1,0 +1,14 @@
+C:\Users\youse\source\repos\operator-overload\bin\Debug\net6.0\operator-overload.exe
+C:\Users\youse\source\repos\operator-overload\bin\Debug\net6.0\operator-overload.deps.json
+C:\Users\youse\source\repos\operator-overload\bin\Debug\net6.0\operator-overload.runtimeconfig.json
+C:\Users\youse\source\repos\operator-overload\bin\Debug\net6.0\operator-overload.dll
+C:\Users\youse\source\repos\operator-overload\bin\Debug\net6.0\operator-overload.pdb
+C:\Users\youse\source\repos\operator-overload\obj\Debug\net6.0\operator-overload.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\operator-overload\obj\Debug\net6.0\operator-overload.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\operator-overload\obj\Debug\net6.0\operator-overload.AssemblyInfo.cs
+C:\Users\youse\source\repos\operator-overload\obj\Debug\net6.0\operator-overload.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\operator-overload\obj\Debug\net6.0\operator-overload.dll
+C:\Users\youse\source\repos\operator-overload\obj\Debug\net6.0\refint\operator-overload.dll
+C:\Users\youse\source\repos\operator-overload\obj\Debug\net6.0\operator-overload.pdb
+C:\Users\youse\source\repos\operator-overload\obj\Debug\net6.0\operator-overload.genruntimeconfig.cache
+C:\Users\youse\source\repos\operator-overload\obj\Debug\net6.0\ref\operator-overload.dll

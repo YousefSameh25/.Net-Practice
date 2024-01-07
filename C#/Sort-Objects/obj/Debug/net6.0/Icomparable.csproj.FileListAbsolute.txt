@@ -1,0 +1,14 @@
+C:\Users\youse\source\repos\Sort-Objects\bin\Debug\net6.0\Icomparable.exe
+C:\Users\youse\source\repos\Sort-Objects\bin\Debug\net6.0\Icomparable.deps.json
+C:\Users\youse\source\repos\Sort-Objects\bin\Debug\net6.0\Icomparable.runtimeconfig.json
+C:\Users\youse\source\repos\Sort-Objects\bin\Debug\net6.0\Icomparable.dll
+C:\Users\youse\source\repos\Sort-Objects\bin\Debug\net6.0\Icomparable.pdb
+C:\Users\youse\source\repos\Sort-Objects\obj\Debug\net6.0\Icomparable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\Sort-Objects\obj\Debug\net6.0\Icomparable.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\Sort-Objects\obj\Debug\net6.0\Icomparable.AssemblyInfo.cs
+C:\Users\youse\source\repos\Sort-Objects\obj\Debug\net6.0\Icomparable.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\Sort-Objects\obj\Debug\net6.0\Icomparable.dll
+C:\Users\youse\source\repos\Sort-Objects\obj\Debug\net6.0\refint\Icomparable.dll
+C:\Users\youse\source\repos\Sort-Objects\obj\Debug\net6.0\Icomparable.pdb
+C:\Users\youse\source\repos\Sort-Objects\obj\Debug\net6.0\Icomparable.genruntimeconfig.cache
+C:\Users\youse\source\repos\Sort-Objects\obj\Debug\net6.0\ref\Icomparable.dll

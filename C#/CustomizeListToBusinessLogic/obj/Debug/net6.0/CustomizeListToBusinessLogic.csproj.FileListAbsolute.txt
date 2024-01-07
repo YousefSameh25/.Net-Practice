@@ -1,0 +1,14 @@
+C:\Users\youse\source\repos\CustomizeListToBusinessLogic\bin\Debug\net6.0\CustomizeListToBusinessLogic.exe
+C:\Users\youse\source\repos\CustomizeListToBusinessLogic\bin\Debug\net6.0\CustomizeListToBusinessLogic.deps.json
+C:\Users\youse\source\repos\CustomizeListToBusinessLogic\bin\Debug\net6.0\CustomizeListToBusinessLogic.runtimeconfig.json
+C:\Users\youse\source\repos\CustomizeListToBusinessLogic\bin\Debug\net6.0\CustomizeListToBusinessLogic.dll
+C:\Users\youse\source\repos\CustomizeListToBusinessLogic\bin\Debug\net6.0\CustomizeListToBusinessLogic.pdb
+C:\Users\youse\source\repos\CustomizeListToBusinessLogic\obj\Debug\net6.0\CustomizeListToBusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\CustomizeListToBusinessLogic\obj\Debug\net6.0\CustomizeListToBusinessLogic.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\CustomizeListToBusinessLogic\obj\Debug\net6.0\CustomizeListToBusinessLogic.AssemblyInfo.cs
+C:\Users\youse\source\repos\CustomizeListToBusinessLogic\obj\Debug\net6.0\CustomizeListToBusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\CustomizeListToBusinessLogic\obj\Debug\net6.0\CustomizeListToBusinessLogic.dll
+C:\Users\youse\source\repos\CustomizeListToBusinessLogic\obj\Debug\net6.0\refint\CustomizeListToBusinessLogic.dll
+C:\Users\youse\source\repos\CustomizeListToBusinessLogic\obj\Debug\net6.0\CustomizeListToBusinessLogic.pdb
+C:\Users\youse\source\repos\CustomizeListToBusinessLogic\obj\Debug\net6.0\CustomizeListToBusinessLogic.genruntimeconfig.cache
+C:\Users\youse\source\repos\CustomizeListToBusinessLogic\obj\Debug\net6.0\ref\CustomizeListToBusinessLogic.dll

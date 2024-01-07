@@ -1,0 +1,14 @@
+C:\Users\youse\source\repos\Threading\bin\Debug\net6.0\Threading.exe
+C:\Users\youse\source\repos\Threading\bin\Debug\net6.0\Threading.deps.json
+C:\Users\youse\source\repos\Threading\bin\Debug\net6.0\Threading.runtimeconfig.json
+C:\Users\youse\source\repos\Threading\bin\Debug\net6.0\Threading.dll
+C:\Users\youse\source\repos\Threading\bin\Debug\net6.0\Threading.pdb
+C:\Users\youse\source\repos\Threading\obj\Debug\net6.0\Threading.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\Threading\obj\Debug\net6.0\Threading.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\Threading\obj\Debug\net6.0\Threading.AssemblyInfo.cs
+C:\Users\youse\source\repos\Threading\obj\Debug\net6.0\Threading.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\Threading\obj\Debug\net6.0\Threading.dll
+C:\Users\youse\source\repos\Threading\obj\Debug\net6.0\refint\Threading.dll
+C:\Users\youse\source\repos\Threading\obj\Debug\net6.0\Threading.pdb
+C:\Users\youse\source\repos\Threading\obj\Debug\net6.0\Threading.genruntimeconfig.cache
+C:\Users\youse\source\repos\Threading\obj\Debug\net6.0\ref\Threading.dll

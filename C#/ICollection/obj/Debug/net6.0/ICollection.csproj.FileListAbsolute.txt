@@ -1,0 +1,14 @@
+C:\Users\youse\source\repos\ICollection\obj\Debug\net6.0\ICollection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\ICollection\obj\Debug\net6.0\ICollection.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\ICollection\obj\Debug\net6.0\ICollection.AssemblyInfo.cs
+C:\Users\youse\source\repos\ICollection\obj\Debug\net6.0\ICollection.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\ICollection\bin\Debug\net6.0\ICollection.exe
+C:\Users\youse\source\repos\ICollection\bin\Debug\net6.0\ICollection.deps.json
+C:\Users\youse\source\repos\ICollection\bin\Debug\net6.0\ICollection.runtimeconfig.json
+C:\Users\youse\source\repos\ICollection\bin\Debug\net6.0\ICollection.dll
+C:\Users\youse\source\repos\ICollection\bin\Debug\net6.0\ICollection.pdb
+C:\Users\youse\source\repos\ICollection\obj\Debug\net6.0\ICollection.dll
+C:\Users\youse\source\repos\ICollection\obj\Debug\net6.0\refint\ICollection.dll
+C:\Users\youse\source\repos\ICollection\obj\Debug\net6.0\ICollection.pdb
+C:\Users\youse\source\repos\ICollection\obj\Debug\net6.0\ICollection.genruntimeconfig.cache
+C:\Users\youse\source\repos\ICollection\obj\Debug\net6.0\ref\ICollection.dll

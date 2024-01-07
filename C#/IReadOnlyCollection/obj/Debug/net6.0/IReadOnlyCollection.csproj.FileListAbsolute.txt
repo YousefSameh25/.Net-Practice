@@ -1,0 +1,14 @@
+C:\Users\youse\source\repos\IReadOnlyCollection\bin\Debug\net6.0\IReadOnlyCollection.exe
+C:\Users\youse\source\repos\IReadOnlyCollection\bin\Debug\net6.0\IReadOnlyCollection.deps.json
+C:\Users\youse\source\repos\IReadOnlyCollection\bin\Debug\net6.0\IReadOnlyCollection.runtimeconfig.json
+C:\Users\youse\source\repos\IReadOnlyCollection\bin\Debug\net6.0\IReadOnlyCollection.dll
+C:\Users\youse\source\repos\IReadOnlyCollection\bin\Debug\net6.0\IReadOnlyCollection.pdb
+C:\Users\youse\source\repos\IReadOnlyCollection\obj\Debug\net6.0\IReadOnlyCollection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\IReadOnlyCollection\obj\Debug\net6.0\IReadOnlyCollection.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\IReadOnlyCollection\obj\Debug\net6.0\IReadOnlyCollection.AssemblyInfo.cs
+C:\Users\youse\source\repos\IReadOnlyCollection\obj\Debug\net6.0\IReadOnlyCollection.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\IReadOnlyCollection\obj\Debug\net6.0\IReadOnlyCollection.dll
+C:\Users\youse\source\repos\IReadOnlyCollection\obj\Debug\net6.0\refint\IReadOnlyCollection.dll
+C:\Users\youse\source\repos\IReadOnlyCollection\obj\Debug\net6.0\IReadOnlyCollection.pdb
+C:\Users\youse\source\repos\IReadOnlyCollection\obj\Debug\net6.0\IReadOnlyCollection.genruntimeconfig.cache
+C:\Users\youse\source\repos\IReadOnlyCollection\obj\Debug\net6.0\ref\IReadOnlyCollection.dll

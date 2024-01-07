@@ -1,0 +1,14 @@
+C:\Users\youse\source\repos\Delegate\bin\Debug\net6.0\Delegate.exe
+C:\Users\youse\source\repos\Delegate\bin\Debug\net6.0\Delegate.deps.json
+C:\Users\youse\source\repos\Delegate\bin\Debug\net6.0\Delegate.runtimeconfig.json
+C:\Users\youse\source\repos\Delegate\bin\Debug\net6.0\Delegate.dll
+C:\Users\youse\source\repos\Delegate\bin\Debug\net6.0\Delegate.pdb
+C:\Users\youse\source\repos\Delegate\obj\Debug\net6.0\Delegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\Delegate\obj\Debug\net6.0\Delegate.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\Delegate\obj\Debug\net6.0\Delegate.AssemblyInfo.cs
+C:\Users\youse\source\repos\Delegate\obj\Debug\net6.0\Delegate.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\Delegate\obj\Debug\net6.0\Delegate.dll
+C:\Users\youse\source\repos\Delegate\obj\Debug\net6.0\refint\Delegate.dll
+C:\Users\youse\source\repos\Delegate\obj\Debug\net6.0\Delegate.pdb
+C:\Users\youse\source\repos\Delegate\obj\Debug\net6.0\Delegate.genruntimeconfig.cache
+C:\Users\youse\source\repos\Delegate\obj\Debug\net6.0\ref\Delegate.dll

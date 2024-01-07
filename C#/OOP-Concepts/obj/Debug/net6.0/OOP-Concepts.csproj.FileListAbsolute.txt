@@ -1,0 +1,14 @@
+C:\Users\youse\source\repos\OOP-Concepts\bin\Debug\net6.0\OOP-Concepts.exe
+C:\Users\youse\source\repos\OOP-Concepts\bin\Debug\net6.0\OOP-Concepts.deps.json
+C:\Users\youse\source\repos\OOP-Concepts\bin\Debug\net6.0\OOP-Concepts.runtimeconfig.json
+C:\Users\youse\source\repos\OOP-Concepts\bin\Debug\net6.0\OOP-Concepts.dll
+C:\Users\youse\source\repos\OOP-Concepts\bin\Debug\net6.0\OOP-Concepts.pdb
+C:\Users\youse\source\repos\OOP-Concepts\obj\Debug\net6.0\OOP-Concepts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\OOP-Concepts\obj\Debug\net6.0\OOP-Concepts.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\OOP-Concepts\obj\Debug\net6.0\OOP-Concepts.AssemblyInfo.cs
+C:\Users\youse\source\repos\OOP-Concepts\obj\Debug\net6.0\OOP-Concepts.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\OOP-Concepts\obj\Debug\net6.0\OOP-Concepts.dll
+C:\Users\youse\source\repos\OOP-Concepts\obj\Debug\net6.0\refint\OOP-Concepts.dll
+C:\Users\youse\source\repos\OOP-Concepts\obj\Debug\net6.0\OOP-Concepts.pdb
+C:\Users\youse\source\repos\OOP-Concepts\obj\Debug\net6.0\OOP-Concepts.genruntimeconfig.cache
+C:\Users\youse\source\repos\OOP-Concepts\obj\Debug\net6.0\ref\OOP-Concepts.dll

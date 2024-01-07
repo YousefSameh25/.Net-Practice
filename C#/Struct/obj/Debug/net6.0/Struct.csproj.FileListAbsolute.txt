@@ -1,0 +1,14 @@
+C:\Users\youse\source\repos\Struct\bin\Debug\net6.0\Struct.exe
+C:\Users\youse\source\repos\Struct\bin\Debug\net6.0\Struct.deps.json
+C:\Users\youse\source\repos\Struct\bin\Debug\net6.0\Struct.runtimeconfig.json
+C:\Users\youse\source\repos\Struct\bin\Debug\net6.0\Struct.dll
+C:\Users\youse\source\repos\Struct\bin\Debug\net6.0\Struct.pdb
+C:\Users\youse\source\repos\Struct\obj\Debug\net6.0\Struct.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\Struct\obj\Debug\net6.0\Struct.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\Struct\obj\Debug\net6.0\Struct.AssemblyInfo.cs
+C:\Users\youse\source\repos\Struct\obj\Debug\net6.0\Struct.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\Struct\obj\Debug\net6.0\Struct.dll
+C:\Users\youse\source\repos\Struct\obj\Debug\net6.0\refint\Struct.dll
+C:\Users\youse\source\repos\Struct\obj\Debug\net6.0\Struct.pdb
+C:\Users\youse\source\repos\Struct\obj\Debug\net6.0\Struct.genruntimeconfig.cache
+C:\Users\youse\source\repos\Struct\obj\Debug\net6.0\ref\Struct.dll

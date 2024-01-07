@@ -1,0 +1,14 @@
+C:\Users\youse\source\repos\IEnumerable\bin\Debug\net6.0\IEnumerable.exe
+C:\Users\youse\source\repos\IEnumerable\bin\Debug\net6.0\IEnumerable.deps.json
+C:\Users\youse\source\repos\IEnumerable\bin\Debug\net6.0\IEnumerable.runtimeconfig.json
+C:\Users\youse\source\repos\IEnumerable\bin\Debug\net6.0\IEnumerable.dll
+C:\Users\youse\source\repos\IEnumerable\bin\Debug\net6.0\IEnumerable.pdb
+C:\Users\youse\source\repos\IEnumerable\obj\Debug\net6.0\IEnumerable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\IEnumerable\obj\Debug\net6.0\IEnumerable.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\IEnumerable\obj\Debug\net6.0\IEnumerable.AssemblyInfo.cs
+C:\Users\youse\source\repos\IEnumerable\obj\Debug\net6.0\IEnumerable.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\IEnumerable\obj\Debug\net6.0\IEnumerable.dll
+C:\Users\youse\source\repos\IEnumerable\obj\Debug\net6.0\refint\IEnumerable.dll
+C:\Users\youse\source\repos\IEnumerable\obj\Debug\net6.0\IEnumerable.pdb
+C:\Users\youse\source\repos\IEnumerable\obj\Debug\net6.0\IEnumerable.genruntimeconfig.cache
+C:\Users\youse\source\repos\IEnumerable\obj\Debug\net6.0\ref\IEnumerable.dll

@@ -1,0 +1,14 @@
+C:\Users\youse\source\repos\LinkedList\bin\Debug\net6.0\LinkedList.exe
+C:\Users\youse\source\repos\LinkedList\bin\Debug\net6.0\LinkedList.deps.json
+C:\Users\youse\source\repos\LinkedList\bin\Debug\net6.0\LinkedList.runtimeconfig.json
+C:\Users\youse\source\repos\LinkedList\bin\Debug\net6.0\LinkedList.dll
+C:\Users\youse\source\repos\LinkedList\bin\Debug\net6.0\LinkedList.pdb
+C:\Users\youse\source\repos\LinkedList\obj\Debug\net6.0\LinkedList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\LinkedList\obj\Debug\net6.0\LinkedList.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\LinkedList\obj\Debug\net6.0\LinkedList.AssemblyInfo.cs
+C:\Users\youse\source\repos\LinkedList\obj\Debug\net6.0\LinkedList.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\LinkedList\obj\Debug\net6.0\LinkedList.dll
+C:\Users\youse\source\repos\LinkedList\obj\Debug\net6.0\refint\LinkedList.dll
+C:\Users\youse\source\repos\LinkedList\obj\Debug\net6.0\LinkedList.pdb
+C:\Users\youse\source\repos\LinkedList\obj\Debug\net6.0\LinkedList.genruntimeconfig.cache
+C:\Users\youse\source\repos\LinkedList\obj\Debug\net6.0\ref\LinkedList.dll

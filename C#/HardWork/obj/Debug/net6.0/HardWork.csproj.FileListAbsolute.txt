@@ -1,0 +1,14 @@
+C:\Users\youse\source\repos\HardWork\bin\Debug\net6.0\HardWork.exe
+C:\Users\youse\source\repos\HardWork\bin\Debug\net6.0\HardWork.deps.json
+C:\Users\youse\source\repos\HardWork\bin\Debug\net6.0\HardWork.runtimeconfig.json
+C:\Users\youse\source\repos\HardWork\bin\Debug\net6.0\HardWork.dll
+C:\Users\youse\source\repos\HardWork\bin\Debug\net6.0\HardWork.pdb
+C:\Users\youse\source\repos\HardWork\obj\Debug\net6.0\HardWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\HardWork\obj\Debug\net6.0\HardWork.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\HardWork\obj\Debug\net6.0\HardWork.AssemblyInfo.cs
+C:\Users\youse\source\repos\HardWork\obj\Debug\net6.0\HardWork.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\HardWork\obj\Debug\net6.0\HardWork.dll
+C:\Users\youse\source\repos\HardWork\obj\Debug\net6.0\refint\HardWork.dll
+C:\Users\youse\source\repos\HardWork\obj\Debug\net6.0\HardWork.pdb
+C:\Users\youse\source\repos\HardWork\obj\Debug\net6.0\HardWork.genruntimeconfig.cache
+C:\Users\youse\source\repos\HardWork\obj\Debug\net6.0\ref\HardWork.dll
