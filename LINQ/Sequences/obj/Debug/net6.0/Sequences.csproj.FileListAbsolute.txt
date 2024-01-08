@@ -1,0 +1,15 @@
+C:\Users\youse\source\repos\LINQ\Sequences\bin\Debug\net6.0\Sequences.exe
+C:\Users\youse\source\repos\LINQ\Sequences\bin\Debug\net6.0\Sequences.deps.json
+C:\Users\youse\source\repos\LINQ\Sequences\bin\Debug\net6.0\Sequences.runtimeconfig.json
+C:\Users\youse\source\repos\LINQ\Sequences\bin\Debug\net6.0\Sequences.dll
+C:\Users\youse\source\repos\LINQ\Sequences\bin\Debug\net6.0\Sequences.pdb
+C:\Users\youse\source\repos\LINQ\Sequences\obj\Debug\net6.0\Sequences.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\LINQ\Sequences\obj\Debug\net6.0\Sequences.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\LINQ\Sequences\obj\Debug\net6.0\Sequences.AssemblyInfo.cs
+C:\Users\youse\source\repos\LINQ\Sequences\obj\Debug\net6.0\Sequences.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\LINQ\Sequences\obj\Debug\net6.0\Sequences.sourcelink.json
+C:\Users\youse\source\repos\LINQ\Sequences\obj\Debug\net6.0\Sequences.dll
+C:\Users\youse\source\repos\LINQ\Sequences\obj\Debug\net6.0\refint\Sequences.dll
+C:\Users\youse\source\repos\LINQ\Sequences\obj\Debug\net6.0\Sequences.pdb
+C:\Users\youse\source\repos\LINQ\Sequences\obj\Debug\net6.0\Sequences.genruntimeconfig.cache
+C:\Users\youse\source\repos\LINQ\Sequences\obj\Debug\net6.0\ref\Sequences.dll

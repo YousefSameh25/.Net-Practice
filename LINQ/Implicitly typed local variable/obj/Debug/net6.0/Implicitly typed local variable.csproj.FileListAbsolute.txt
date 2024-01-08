@@ -1,0 +1,15 @@
+C:\Users\youse\source\repos\LINQ\Implicitly typed local variable\bin\Debug\net6.0\Implicitly typed local variable.exe
+C:\Users\youse\source\repos\LINQ\Implicitly typed local variable\bin\Debug\net6.0\Implicitly typed local variable.deps.json
+C:\Users\youse\source\repos\LINQ\Implicitly typed local variable\bin\Debug\net6.0\Implicitly typed local variable.runtimeconfig.json
+C:\Users\youse\source\repos\LINQ\Implicitly typed local variable\bin\Debug\net6.0\Implicitly typed local variable.dll
+C:\Users\youse\source\repos\LINQ\Implicitly typed local variable\bin\Debug\net6.0\Implicitly typed local variable.pdb
+C:\Users\youse\source\repos\LINQ\Implicitly typed local variable\obj\Debug\net6.0\Implicitly typed local variable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\LINQ\Implicitly typed local variable\obj\Debug\net6.0\Implicitly typed local variable.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\LINQ\Implicitly typed local variable\obj\Debug\net6.0\Implicitly typed local variable.AssemblyInfo.cs
+C:\Users\youse\source\repos\LINQ\Implicitly typed local variable\obj\Debug\net6.0\Implicitly typed local variable.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\LINQ\Implicitly typed local variable\obj\Debug\net6.0\Implicitly typed local variable.sourcelink.json
+C:\Users\youse\source\repos\LINQ\Implicitly typed local variable\obj\Debug\net6.0\Implicitly typed local variable.dll
+C:\Users\youse\source\repos\LINQ\Implicitly typed local variable\obj\Debug\net6.0\refint\Implicitly typed local variable.dll
+C:\Users\youse\source\repos\LINQ\Implicitly typed local variable\obj\Debug\net6.0\Implicitly typed local variable.pdb
+C:\Users\youse\source\repos\LINQ\Implicitly typed local variable\obj\Debug\net6.0\Implicitly typed local variable.genruntimeconfig.cache
+C:\Users\youse\source\repos\LINQ\Implicitly typed local variable\obj\Debug\net6.0\ref\Implicitly typed local variable.dll

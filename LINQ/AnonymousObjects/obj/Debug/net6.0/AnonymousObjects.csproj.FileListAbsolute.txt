@@ -1,0 +1,15 @@
+C:\Users\youse\source\repos\LINQ\AnonymousObjects\bin\Debug\net6.0\AnonymousObjects.exe
+C:\Users\youse\source\repos\LINQ\AnonymousObjects\bin\Debug\net6.0\AnonymousObjects.deps.json
+C:\Users\youse\source\repos\LINQ\AnonymousObjects\bin\Debug\net6.0\AnonymousObjects.runtimeconfig.json
+C:\Users\youse\source\repos\LINQ\AnonymousObjects\bin\Debug\net6.0\AnonymousObjects.dll
+C:\Users\youse\source\repos\LINQ\AnonymousObjects\bin\Debug\net6.0\AnonymousObjects.pdb
+C:\Users\youse\source\repos\LINQ\AnonymousObjects\obj\Debug\net6.0\AnonymousObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\LINQ\AnonymousObjects\obj\Debug\net6.0\AnonymousObjects.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\LINQ\AnonymousObjects\obj\Debug\net6.0\AnonymousObjects.AssemblyInfo.cs
+C:\Users\youse\source\repos\LINQ\AnonymousObjects\obj\Debug\net6.0\AnonymousObjects.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\LINQ\AnonymousObjects\obj\Debug\net6.0\AnonymousObjects.sourcelink.json
+C:\Users\youse\source\repos\LINQ\AnonymousObjects\obj\Debug\net6.0\AnonymousObjects.dll
+C:\Users\youse\source\repos\LINQ\AnonymousObjects\obj\Debug\net6.0\refint\AnonymousObjects.dll
+C:\Users\youse\source\repos\LINQ\AnonymousObjects\obj\Debug\net6.0\AnonymousObjects.pdb
+C:\Users\youse\source\repos\LINQ\AnonymousObjects\obj\Debug\net6.0\AnonymousObjects.genruntimeconfig.cache
+C:\Users\youse\source\repos\LINQ\AnonymousObjects\obj\Debug\net6.0\ref\AnonymousObjects.dll
