@@ -1,0 +1,12 @@
+C:\Users\youse\source\repos\C#\Access Modifiers\bin\Debug\net6.0\Class Library.deps.json
+C:\Users\youse\source\repos\C#\Access Modifiers\bin\Debug\net6.0\Class Library.dll
+C:\Users\youse\source\repos\C#\Access Modifiers\bin\Debug\net6.0\Class Library.pdb
+C:\Users\youse\source\repos\C#\Access Modifiers\obj\Debug\net6.0\Class Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\C#\Access Modifiers\obj\Debug\net6.0\Class Library.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\C#\Access Modifiers\obj\Debug\net6.0\Class Library.AssemblyInfo.cs
+C:\Users\youse\source\repos\C#\Access Modifiers\obj\Debug\net6.0\Class Library.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\C#\Access Modifiers\obj\Debug\net6.0\Class Library.sourcelink.json
+C:\Users\youse\source\repos\C#\Access Modifiers\obj\Debug\net6.0\Class Library.dll
+C:\Users\youse\source\repos\C#\Access Modifiers\obj\Debug\net6.0\refint\Class Library.dll
+C:\Users\youse\source\repos\C#\Access Modifiers\obj\Debug\net6.0\Class Library.pdb
+C:\Users\youse\source\repos\C#\Access Modifiers\obj\Debug\net6.0\ref\Class Library.dll

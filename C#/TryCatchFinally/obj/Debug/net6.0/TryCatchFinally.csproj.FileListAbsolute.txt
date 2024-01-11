@@ -1,0 +1,15 @@
+C:\Users\youse\source\repos\C#\TryCatchFinally\bin\Debug\net6.0\TryCatchFinally.exe
+C:\Users\youse\source\repos\C#\TryCatchFinally\bin\Debug\net6.0\TryCatchFinally.deps.json
+C:\Users\youse\source\repos\C#\TryCatchFinally\bin\Debug\net6.0\TryCatchFinally.runtimeconfig.json
+C:\Users\youse\source\repos\C#\TryCatchFinally\bin\Debug\net6.0\TryCatchFinally.dll
+C:\Users\youse\source\repos\C#\TryCatchFinally\bin\Debug\net6.0\TryCatchFinally.pdb
+C:\Users\youse\source\repos\C#\TryCatchFinally\obj\Debug\net6.0\TryCatchFinally.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\C#\TryCatchFinally\obj\Debug\net6.0\TryCatchFinally.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\C#\TryCatchFinally\obj\Debug\net6.0\TryCatchFinally.AssemblyInfo.cs
+C:\Users\youse\source\repos\C#\TryCatchFinally\obj\Debug\net6.0\TryCatchFinally.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\C#\TryCatchFinally\obj\Debug\net6.0\TryCatchFinally.sourcelink.json
+C:\Users\youse\source\repos\C#\TryCatchFinally\obj\Debug\net6.0\TryCatchFinally.dll
+C:\Users\youse\source\repos\C#\TryCatchFinally\obj\Debug\net6.0\refint\TryCatchFinally.dll
+C:\Users\youse\source\repos\C#\TryCatchFinally\obj\Debug\net6.0\TryCatchFinally.pdb
+C:\Users\youse\source\repos\C#\TryCatchFinally\obj\Debug\net6.0\TryCatchFinally.genruntimeconfig.cache
+C:\Users\youse\source\repos\C#\TryCatchFinally\obj\Debug\net6.0\ref\TryCatchFinally.dll

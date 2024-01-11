@@ -1,0 +1,33 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Built-in  Extension Methods/1.0.0": {
+        "runtime": {
+          "Built-in  Extension Methods.dll": {}
+        }
+      },
+      "LINQ with data/1.0.0": {
+        "runtime": {
+          "LINQ with data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Built-in  Extension Methods/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LINQ with data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

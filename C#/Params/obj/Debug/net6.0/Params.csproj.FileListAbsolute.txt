@@ -1,0 +1,15 @@
+C:\Users\youse\source\repos\C#\Params\bin\Debug\net6.0\Params.exe
+C:\Users\youse\source\repos\C#\Params\bin\Debug\net6.0\Params.deps.json
+C:\Users\youse\source\repos\C#\Params\bin\Debug\net6.0\Params.runtimeconfig.json
+C:\Users\youse\source\repos\C#\Params\bin\Debug\net6.0\Params.dll
+C:\Users\youse\source\repos\C#\Params\bin\Debug\net6.0\Params.pdb
+C:\Users\youse\source\repos\C#\Params\obj\Debug\net6.0\Params.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\C#\Params\obj\Debug\net6.0\Params.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\C#\Params\obj\Debug\net6.0\Params.AssemblyInfo.cs
+C:\Users\youse\source\repos\C#\Params\obj\Debug\net6.0\Params.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\C#\Params\obj\Debug\net6.0\Params.sourcelink.json
+C:\Users\youse\source\repos\C#\Params\obj\Debug\net6.0\Params.dll
+C:\Users\youse\source\repos\C#\Params\obj\Debug\net6.0\refint\Params.dll
+C:\Users\youse\source\repos\C#\Params\obj\Debug\net6.0\Params.pdb
+C:\Users\youse\source\repos\C#\Params\obj\Debug\net6.0\Params.genruntimeconfig.cache
+C:\Users\youse\source\repos\C#\Params\obj\Debug\net6.0\ref\Params.dll
