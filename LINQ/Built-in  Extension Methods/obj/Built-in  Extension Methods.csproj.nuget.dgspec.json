@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\youse\\source\\repos\\LINQ\\LINQ\\Built-in  Extension Methods\\Built-in  Extension Methods.csproj": {}
+    "C:\\Users\\youse\\source\\repos\\LINQ\\Built-in  Extension Methods\\Built-in  Extension Methods.csproj": {}
   },
   "projects": {
-    "C:\\Users\\youse\\source\\repos\\LINQ\\LINQ\\Built-in  Extension Methods\\Built-in  Extension Methods.csproj": {
+    "C:\\Users\\youse\\source\\repos\\LINQ\\Built-in  Extension Methods\\Built-in  Extension Methods.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\youse\\source\\repos\\LINQ\\LINQ\\Built-in  Extension Methods\\Built-in  Extension Methods.csproj",
+        "projectUniqueName": "C:\\Users\\youse\\source\\repos\\LINQ\\Built-in  Extension Methods\\Built-in  Extension Methods.csproj",
         "projectName": "Built-in  Extension Methods",
-        "projectPath": "C:\\Users\\youse\\source\\repos\\LINQ\\LINQ\\Built-in  Extension Methods\\Built-in  Extension Methods.csproj",
+        "projectPath": "C:\\Users\\youse\\source\\repos\\LINQ\\Built-in  Extension Methods\\Built-in  Extension Methods.csproj",
         "packagesPath": "C:\\Users\\youse\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\youse\\source\\repos\\LINQ\\LINQ\\Built-in  Extension Methods\\obj\\",
+        "outputPath": "C:\\Users\\youse\\source\\repos\\LINQ\\Built-in  Extension Methods\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\youse\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\youse\\source\\repos\\LINQ\\LINQ\\LINQ with data\\LINQ with data.csproj": {
-                "projectPath": "C:\\Users\\youse\\source\\repos\\LINQ\\LINQ\\LINQ with data\\LINQ with data.csproj"
+              "C:\\Users\\youse\\source\\repos\\LINQ\\LINQ with data\\LINQ with data.csproj": {
+                "projectPath": "C:\\Users\\youse\\source\\repos\\LINQ\\LINQ with data\\LINQ with data.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\youse\\source\\repos\\LINQ\\LINQ\\LINQ with data\\LINQ with data.csproj": {
+    "C:\\Users\\youse\\source\\repos\\LINQ\\LINQ with data\\LINQ with data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\youse\\source\\repos\\LINQ\\LINQ\\LINQ with data\\LINQ with data.csproj",
+        "projectUniqueName": "C:\\Users\\youse\\source\\repos\\LINQ\\LINQ with data\\LINQ with data.csproj",
         "projectName": "LINQ with data",
-        "projectPath": "C:\\Users\\youse\\source\\repos\\LINQ\\LINQ\\LINQ with data\\LINQ with data.csproj",
+        "projectPath": "C:\\Users\\youse\\source\\repos\\LINQ\\LINQ with data\\LINQ with data.csproj",
         "packagesPath": "C:\\Users\\youse\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\youse\\source\\repos\\LINQ\\LINQ\\LINQ with data\\obj\\",
+        "outputPath": "C:\\Users\\youse\\source\\repos\\LINQ\\LINQ with data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\youse\\AppData\\Roaming\\NuGet\\NuGet.Config",

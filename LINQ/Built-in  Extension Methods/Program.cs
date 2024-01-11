@@ -30,6 +30,11 @@ namespace Built_in__Extension_Methods
             Console.WriteLine("=======================");
             #endregion
 
+            #region Sum
+            int summ = list.Sum(); // If it is list of number
+            int suum = list.Sum(x => x); // Object and i want to some a specific attribute.
+            #endregion
+
             #region All & Any
             bool AllPositive = list.All((x) => x > 0);
             Console.WriteLine(AllPositive ? "All numbers are positive." : "All numbers are not positive.");
@@ -312,6 +317,22 @@ namespace Built_in__Extension_Methods
 
             #endregion
 
+            #region GroupBy
+            //                 <Key, Elements type>
+            IEnumerable<IGrouping<int, int>> groups = list.GroupBy(x => x);
+
+            // IGrouping is an list with key attribute.
+            // Key attribute is used to store the attribute which we used in GroupBy.
+            foreach (var group in groups)
+            {
+                Console.WriteLine($"Group: {group.Key}");
+                foreach (var rows in group)
+                {
+                    Console.WriteLine(rows);
+                }
+                Console.WriteLine("-------------------");
+            }
+            #endregion
         }
     }
 }
