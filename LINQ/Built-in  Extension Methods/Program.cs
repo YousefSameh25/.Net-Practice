@@ -99,6 +99,8 @@ namespace Built_in__Extension_Methods
             #endregion
 
             #region To...
+            // Those functions make the query run using eager execution. 
+
             List<int> newList = list.ToList();
 
             int[] arr = list.ToArray();

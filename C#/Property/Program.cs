@@ -1,12 +1,15 @@
-﻿namespace Property
+﻿using System.Threading.Tasks.Dataflow;
+
+namespace Property
 {
     class Human
     {
         // Auto implenemted property
+        // Backing field , hidden private attribute.
         public string Name { get; set; }
 
-        // property
-        // Best practise when you do not have login in seters and geters.
+        // Best practise when you do not have to login in seters and geters.
+        // Full property
         public int id
         {
             get
@@ -19,9 +22,10 @@
             }
         }
 
-        // Create shallow copy (new object)
+        // Create shallow copy.
         public Human Clone()
         {
+              // This function is at object class.
             return MemberwiseClone() as Human;
         }
     }
@@ -42,6 +46,7 @@
             // Boxing => create object in heap and store value 10 in it.
             object obj = 10;
             Console.WriteLine(obj.ToString());
+
         }
     }
 }

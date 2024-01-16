@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MyCompanyModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Departments">
+    <Key>
+      <PropertyRef Name="Dnum" />
+    </Key>
+    <Property Name="Dname" Type="nvarchar" MaxLength="50" />
+    <Property Name="Dnum" Type="int" Nullable="false" />
+    <Property Name="MGRSSN" Type="int" />
+    <Property Name="MGRStart Date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Dependent">
+    <Key>
+      <PropertyRef Name="ESSN" />
+      <PropertyRef Name="Dependent_name" />
+    </Key>
+    <Property Name="ESSN" Type="int" Nullable="false" />
+    <Property Name="Dependent_name" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Sex" Type="nvarchar" MaxLength="255" />
+    <Property Name="Bdate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="SSN" />
+    </Key>
+    <Property Name="Fname" Type="nvarchar" MaxLength="50" />
+    <Property Name="Lname" Type="nvarchar" MaxLength="50" />
+    <Property Name="SSN" Type="int" Nullable="false" />
+    <Property Name="Bdate" Type="datetime" />
+    <Property Name="Address" Type="nvarchar" MaxLength="50" />
+    <Property Name="Sex" Type="nvarchar" MaxLength="50" />
+    <Property Name="Salary" Type="int" />
+    <Property Name="Superssn" Type="int" />
+    <Property Name="Dno" Type="int" />
+  </EntityType>
+  <EntityType Name="Project">
+    <Key>
+      <PropertyRef Name="Pnumber" />
+    </Key>
+    <Property Name="Pname" Type="nvarchar" MaxLength="50" />
+    <Property Name="Pnumber" Type="int" Nullable="false" />
+    <Property Name="Plocation" Type="nvarchar" MaxLength="50" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="Dnum" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Works_for">
+    <Key>
+      <PropertyRef Name="ESSn" />
+      <PropertyRef Name="Pno" />
+    </Key>
+    <Property Name="ESSn" Type="int" Nullable="false" />
+    <Property Name="Pno" Type="int" Nullable="false" />
+    <Property Name="Hours" Type="int" />
+  </EntityType>
+  <Association Name="FK_Departments_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Departments" Type="Self.Departments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="SSN" />
+      </Principal>
+      <Dependent Role="Departments">
+        <PropertyRef Name="MGRSSN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Dependent_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Dependent" Type="Self.Dependent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="SSN" />
+      </Principal>
+      <Dependent Role="Dependent">
+        <PropertyRef Name="ESSN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_Departments">
+    <End Role="Departments" Type="Self.Departments" Multiplicity="0..1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departments">
+        <PropertyRef Name="Dnum" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="Dno" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Employee1" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="SSN" />
+      </Principal>
+      <Dependent Role="Employee1">
+        <PropertyRef Name="Superssn" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Project_Departments">
+    <End Role="Departments" Type="Self.Departments" Multiplicity="0..1" />
+    <End Role="Project" Type="Self.Project" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departments">
+        <PropertyRef Name="Dnum" />
+      </Principal>
+      <Dependent Role="Project">
+        <PropertyRef Name="Dnum" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Works_for_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="Works_for" Type="Self.Works_for" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="SSN" />
+      </Principal>
+      <Dependent Role="Works_for">
+        <PropertyRef Name="ESSn" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Works_for_Project">
+    <End Role="Project" Type="Self.Project" Multiplicity="1" />
+    <End Role="Works_for" Type="Self.Works_for" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="Pnumber" />
+      </Principal>
+      <Dependent Role="Works_for">
+        <PropertyRef Name="Pno" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MyCompanyModelStoreContainer">
+    <EntitySet Name="Departments" EntityType="Self.Departments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Dependent" EntityType="Self.Dependent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Project" EntityType="Self.Project" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Works_for" EntityType="Self.Works_for" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Departments_Employee" Association="Self.FK_Departments_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="Departments" EntitySet="Departments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Dependent_Employee" Association="Self.FK_Dependent_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="Dependent" EntitySet="Dependent" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_Departments" Association="Self.FK_Employee_Departments">
+      <End Role="Departments" EntitySet="Departments" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_Employee" Association="Self.FK_Employee_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="Employee1" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Project_Departments" Association="Self.FK_Project_Departments">
+      <End Role="Departments" EntitySet="Departments" />
+      <End Role="Project" EntitySet="Project" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Works_for_Employee" Association="Self.FK_Works_for_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="Works_for" EntitySet="Works_for" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Works_for_Project" Association="Self.FK_Works_for_Project">
+      <End Role="Project" EntitySet="Project" />
+      <End Role="Works_for" EntitySet="Works_for" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
