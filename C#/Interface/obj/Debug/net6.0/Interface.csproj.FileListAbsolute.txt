@@ -1,0 +1,15 @@
+C:\Users\youse\source\repos\C#\Interface\bin\Debug\net6.0\Interface.exe
+C:\Users\youse\source\repos\C#\Interface\bin\Debug\net6.0\Interface.deps.json
+C:\Users\youse\source\repos\C#\Interface\bin\Debug\net6.0\Interface.runtimeconfig.json
+C:\Users\youse\source\repos\C#\Interface\bin\Debug\net6.0\Interface.dll
+C:\Users\youse\source\repos\C#\Interface\bin\Debug\net6.0\Interface.pdb
+C:\Users\youse\source\repos\C#\Interface\obj\Debug\net6.0\Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\C#\Interface\obj\Debug\net6.0\Interface.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\C#\Interface\obj\Debug\net6.0\Interface.AssemblyInfo.cs
+C:\Users\youse\source\repos\C#\Interface\obj\Debug\net6.0\Interface.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\C#\Interface\obj\Debug\net6.0\Interface.sourcelink.json
+C:\Users\youse\source\repos\C#\Interface\obj\Debug\net6.0\Interface.dll
+C:\Users\youse\source\repos\C#\Interface\obj\Debug\net6.0\refint\Interface.dll
+C:\Users\youse\source\repos\C#\Interface\obj\Debug\net6.0\Interface.pdb
+C:\Users\youse\source\repos\C#\Interface\obj\Debug\net6.0\Interface.genruntimeconfig.cache
+C:\Users\youse\source\repos\C#\Interface\obj\Debug\net6.0\ref\Interface.dll

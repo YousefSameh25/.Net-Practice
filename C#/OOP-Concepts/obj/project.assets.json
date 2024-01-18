@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\youse\\source\\repos\\C#\\OOP-Concepts\\OOP-Concepts.csproj",
-      "projectName": "OOP-Concepts",
-      "projectPath": "C:\\Users\\youse\\source\\repos\\C#\\OOP-Concepts\\OOP-Concepts.csproj",
+      "projectUniqueName": "C:\\Users\\youse\\source\\repos\\C#\\OOP-Concepts\\OOP- Notes.csproj",
+      "projectName": "OOP- Notes",
+      "projectPath": "C:\\Users\\youse\\source\\repos\\C#\\OOP-Concepts\\OOP- Notes.csproj",
       "packagesPath": "C:\\Users\\youse\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\youse\\source\\repos\\C#\\OOP-Concepts\\obj\\",
       "projectStyle": "PackageReference",

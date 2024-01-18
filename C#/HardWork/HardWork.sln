@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Struct", "..\Struct\Struct.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "..\Classes\Classes.csproj", "{945DBFD7-B5BE-4822-86CF-E4FEA93CEECB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP-Concepts", "..\OOP-Concepts\OOP-Concepts.csproj", "{152C36B7-C0B0-4EAE-9F6B-0D6567426638}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP- Notes", "..\OOP-Concepts\OOP- Notes.csproj", "{152C36B7-C0B0-4EAE-9F6B-0D6567426638}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Property", "..\Property\Property.csproj", "{02ADA111-1207-4DC8-8DC9-BE15F61F3B04}"
 EndProject
@@ -43,13 +43,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indexer", "..\Indexer\Index
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Threading", "..\Threading\Threading.csproj", "{71663DF9-A429-4104-97AA-D40A59E2CFC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Params", "..\Params\Params.csproj", "{FA15F8EE-CD5A-4FD5-94FD-4202F1F26D53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Params", "..\Params\Params.csproj", "{FA15F8EE-CD5A-4FD5-94FD-4202F1F26D53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatchFinally", "..\TryCatchFinally\TryCatchFinally.csproj", "{3F85F69F-205C-4413-BB13-C88467C5A6AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TryCatchFinally", "..\TryCatchFinally\TryCatchFinally.csproj", "{3F85F69F-205C-4413-BB13-C88467C5A6AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Library", "..\Access Modifiers\Class Library.csproj", "{4330C5D8-EFD9-4539-96D9-D351501F9D2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class Library", "..\Access Modifiers\Class Library.csproj", "{4330C5D8-EFD9-4539-96D9-D351501F9D2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers", "..\AccessModifiers\AccessModifiers.csproj", "{43F66DFC-5D7D-4454-A233-6E74E166EFF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifiers", "..\AccessModifiers\AccessModifiers.csproj", "{43F66DFC-5D7D-4454-A233-6E74E166EFF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "..\Inheritance\Inheritance.csproj", "{E2A31603-2F1A-45DD-B075-5152F2C502A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "..\Interface\Interface.csproj", "{134434ED-2255-4E25-B4D1-BE3F1F1169BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +157,14 @@ Global
 		{43F66DFC-5D7D-4454-A233-6E74E166EFF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43F66DFC-5D7D-4454-A233-6E74E166EFF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43F66DFC-5D7D-4454-A233-6E74E166EFF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A31603-2F1A-45DD-B075-5152F2C502A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A31603-2F1A-45DD-B075-5152F2C502A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A31603-2F1A-45DD-B075-5152F2C502A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A31603-2F1A-45DD-B075-5152F2C502A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{134434ED-2255-4E25-B4D1-BE3F1F1169BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{134434ED-2255-4E25-B4D1-BE3F1F1169BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{134434ED-2255-4E25-B4D1-BE3F1F1169BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{134434ED-2255-4E25-B4D1-BE3F1F1169BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

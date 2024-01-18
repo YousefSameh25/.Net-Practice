@@ -4,44 +4,77 @@ namespace Assignment
 {
     internal class Program
     {
+        public static int Sum(int int1, int int2)
+        {
+            return int1 + int2;
+        }
+
+        public static double Sum(int int1, double doub1)
+        {
+            return int1 + doub1;
+        }
+
         static void Main(string[] args)
         {
+            #region new keyword
+            Console.WriteLine("Trying new keyword");
+            Console.WriteLine("---------------------------------");
+            Parent p = new Parent();
+            p.SayHello(); // Hello from parent.
 
-            #region Part 1
-            //EmployeeClass emp = new EmployeeClass(Id: 10, Name: "Yousef", Salary: 1000,
-            //    MobileNumbers: new string[2] { "01097804067", "01080565320" });
+            Child c = new Child();
+            c.SayHello(); // Hello from child.
 
-            //Console.WriteLine(emp);
-
-            //EmployeeStruct emp2 = new EmployeeStruct(Id: 20, Name: "Yousef", Salary: 1000,
-            //    MobileNumbers: new string[1] { "01022512298" });
-
-            //Console.WriteLine(emp2);
+            Parent p2 = new Child(); // Static binding => Call based on refernce type.
+            p2.SayHello(); // Hello from parent.
+            Console.WriteLine("------------------------------------------------------");
             #endregion
 
-            #region Part 2
-            //Employee[] EmpArr = new Employee[3] {
-            //    new Employee { ID = 0, Name = "Yousef", Gender = Gender.M,
-            //        HiringDate = new Date{Day = 25 , Month = 9 , Year = 2010 },
-            //        Salary = 1000.0f , SecurityLevel = SecurityLevel.Developer },
-            //    new Employee { ID = 1, Name = "Eman", Gender = Gender.M,
-            //        HiringDate = new Date{Day = 7 , Month = 12 , Year = 2009 },
-            //        Salary = 750.0f , SecurityLevel = SecurityLevel.Developer },
-            //    new Employee { ID = 2, Name = "Hossam", Gender = Gender.M,
-            //        HiringDate = new Date{Day = 16 , Month = 11 , Year = 2009 },
-            //        Salary = 650.5f , SecurityLevel = SecurityLevel.SecurityOfficer },
-            //};
+            #region Override keyword
+            Console.WriteLine("Trying polymerphism (Override)");
+            Console.WriteLine("---------------------------------");
+            Parent p3 = new Parent();
+            p.SayHello(); // Hello from parent.
 
-            //Array.Sort(EmpArr); // Sort the employees in the older to newer hiring dates.
+            Child c2 = new Child();
+            c.SayHello(); // Hello from child.
 
-            //for (int i = 0; i < 3; i++)
-            //{
-            //    Console.WriteLine($"Hiring date: {EmpArr[i].HiringDate.Day}/" +
-            //        $"{EmpArr[i].HiringDate.Month}/{EmpArr[i].HiringDate.Year}");
-            //    Console.WriteLine("========================");
-            //}
+            Parent p4 = new Child(); // Dynamic binding => Call based on object type.
+            p2.SayHello2(); // Hello from child.
+            Console.WriteLine("------------------------------------------------------");
+            #endregion
 
-            // I think there is no boxing and Unboxing has occurred when we sort using IComparable.
+            #region Overloading
+            Console.WriteLine("Trying polymerphism (overloading)");
+            Console.WriteLine("---------------------------------");
+            int IntResult = Sum(5, 5);
+            Console.WriteLine(IntResult);
+            double DoubleResult = Sum(5, 5.5);
+            Console.WriteLine(DoubleResult);
+            Console.WriteLine("------------------------------------------------------");
+            #endregion
+
+            #region Interface
+            Console.WriteLine("Trying interface");
+            Console.WriteLine("---------------------------------");
+            IMovable car = new Car();
+            car.Move(); // The car is moving.
+
+            IMovable human = new Human();
+            human.Move(); // The human is moving.
+
+            Car car2 = new Car();
+            car2.Type(); // I am a movable car.
+
+            Human human2 = new Human();
+            human2.Type(); // I am a movable human.
+
+            IMovable car3 = new Car();
+            car3.Type(); // I am a movable car.
+
+            IMovable human3 = new Human();
+            human3.Type();  // I am a movable human.
+            Console.WriteLine("------------------------------------------------------");
             #endregion
         }
     }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CustomizeListToBusinessLogic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98bc496b885f256d6ba8871997eb67460c8f62f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a975ccc87caa6250fe84762a316392a6fd3f672a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CustomizeListToBusinessLogic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CustomizeListToBusinessLogic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
