@@ -67,5 +67,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetEmployees" FunctionName="MyCompanyModel.Store.GetEmployees" />
   </EntityContainerMapping>
 </Mapping>

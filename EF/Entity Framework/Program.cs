@@ -18,9 +18,9 @@ namespace Entity_Framework
             // DbSet implements IEnumerable so we can iterate on it.
             MyCompanyEntities context = new MyCompanyEntities();
 
-            foreach (var dept2 in context.Departments)
+            foreach (var dept4 in context.Departments)
             {
-                Console.WriteLine(dept2.Dname);
+                Console.WriteLine(dept4.Dname);
             }
             Console.WriteLine("====================");
 
@@ -60,7 +60,25 @@ namespace Entity_Framework
 
             /*
                 Find() Vs. Single() 
-                
+
+                Single() => will throw an exception when the query return 0 or more than one object.
+
+                Performance:
+                When the context gets some data from DB it caches them so when you use Find()
+                it will get the object from context's cache not from DB.
+
+                Single() => will get the object directly from DB.
+
+                Conclusion:
+
+                - Object at context's cache => use Find()
+
+                - Object is not at context's cache => use Single() because the Find() will check the cache 
+                then gets the object from DB but Single() will get the object dirctly from DB.
+
+
+                Note that cache data may be different from DB at this case i should use Single() when i want 
+                the DB's data.
              */
 
             Console.WriteLine($"Find: {dept.Dname}");
@@ -76,7 +94,10 @@ namespace Entity_Framework
             // Get this entry object and update the state (Not recommended).
             context.Entry(dept).State = System.Data.Entity.EntityState.Modified;
 
-            context.SaveChanges();
+            // Untrack this object.
+            context.Entry(dept).State = System.Data.Entity.EntityState.Detached;
+
+            context.SaveChanges(); // Will check the state of each attached object and delete, update or insert into DB.
 
             // How to disable tracking?
             // Department dept3 = context.Departments.AsNoTracking().Find(10); (Can't use find directly after AsNoTracking())
@@ -87,21 +108,102 @@ namespace Entity_Framework
             context.Departments.Attach(dept3); // After this line the context will be aware about dept3 object.
 
 
-             /*
-                 What if i want to update a property of many employees?
+            /*
+                What if i want to update a property of many employees (Bulk update)?
 
-                 - I have to load all data and track them and update then save changes (Bad performance).
+                - I have to load all data and track them and update then save changes (Bad performance).
 
-                 Solutions:
-                  1) Stored procedure and calling it from EF.
-                  2) Bulk updates or inserts (Not exist in EF6).
-             */
+                Solutions:
+                 1) Stored procedure and calling it from EF.
+                 2) Bulk updates or inserts (Not exist in EF6).
+            */
 
-            
+
             #endregion
 
+            #region Insert Parent & Child
 
+            Department newdept = new Department { Dname = "YousefDept", Dnum = 259 };
 
+            newdept.Employees = new List<Employee>
+            {
+                new Employee { Fname = "Yousef", Lname = "Sameh", SSN = 2345, Sex = "M", Address = "Ain shams"},
+                new Employee { Fname = "Moumen", Lname = "Sameh", SSN = 2346, Sex = "M", Address = "Ain shams"},
+                new Employee { Fname = "Meow", Lname = "Sameh", SSN = 2347, Sex = "M", Address = "Ain shams"},
+            };
+
+            /*
+               At all we don't care about any FK when we add a new record thanks to navigation property.
+            */
+
+            Employee emp = new Employee
+            {
+                Fname = "Eman",
+                Lname = "Shehta",
+                SSN = 2222,
+                Address = "Khanka",
+                Sex = "F",
+                Department = newdept,
+                // Dno = 259, we can use FK or navigation property.
+            };
+
+            context.Employees.Add(emp);
+            // When we use navigation property an exception will be thrown as it create a new department and
+            // the department is already exist so we can use FK (Dno) instead of navigation property.
+
+            context.Departments.Add(newdept);
+
+            context.SaveChanges();
+            #endregion
+
+            /* 
+              Save changes works as transaction 
+              execute all operation or non of them.
+            */
+
+            #region Delete
+            //Employee emp2 = context.Employees.Find(2222);
+
+            //context.Employees.Remove(emp2); // The object must be tracked by context.
+
+            //context.SaveChanges();
+
+            #endregion
+
+            #region Using SP & Function
+
+            IQueryable<string> query4 = context.GetEmployees(300); // 300 is the project id.
+
+            foreach (string fullname in query4)
+                Console.WriteLine(fullname);
+
+            #endregion
+
+            #region Concurrency Mode
+
+            MyCompanyEntities computer1 = new MyCompanyEntities();
+            MyCompanyEntities computer2 = new MyCompanyEntities();
+
+            Employee emp1 = computer1.Employees.First(e => e.Salary != null);
+            Employee emp2 = computer2.Employees.First(e => e.Salary != null);
+
+            emp1.Salary -= 10;
+
+            computer1.SaveChanges();
+
+            emp2.Salary -= 20;
+
+            computer2.SaveChanges(); // Will throw an exception as the old salary.
+
+            // When we enable Concurrency Mode that will affect the performance in terms of memory
+            // because each object we will retrive from DB will be stored 2 times at the memory
+            // Old version which will be useful when SaveChanges() comes to DB and
+            // check if this old version is the same in the DB or not.
+            // if yes so save the changes
+            // else throw an exception.
+
+            // This bad performance can be improved by select which attributes we want to track not the whole object.
+            #endregion
         }
     }
 }

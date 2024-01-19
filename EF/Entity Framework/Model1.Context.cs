@@ -12,6 +12,8 @@ namespace Entity_Framework
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using System.Data.Entity.Core.Objects;
+    using System.Linq;
     
     public partial class MyCompanyEntities : DbContext
     {
@@ -31,5 +33,15 @@ namespace Entity_Framework
         public virtual DbSet<Project> Projects { get; set; }
         public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
         public virtual DbSet<Works_for> Works_for { get; set; }
+    
+        [DbFunction("MyCompanyEntities", "GetEmployees")]
+        public virtual IQueryable<string> GetEmployees(Nullable<int> projectId)
+        {
+            var projectIdParameter = projectId.HasValue ?
+                new ObjectParameter("ProjectId", projectId) :
+                new ObjectParameter("ProjectId", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.CreateQuery<string>("[MyCompanyEntities].[GetEmployees](@ProjectId)", projectIdParameter);
+        }
     }
 }

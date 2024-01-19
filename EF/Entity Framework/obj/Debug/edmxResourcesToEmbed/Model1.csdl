@@ -33,7 +33,7 @@
     <Property Name="Bdate" Type="DateTime" Precision="3" />
     <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="Sex" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-    <Property Name="Salary" Type="Int32" />
+    <Property Name="Salary" Type="Int32" ConcurrencyMode="Fixed" />
     <Property Name="Superssn" Type="Int32" />
     <Property Name="Dno" Type="Int32" />
     <NavigationProperty Name="Departments" Relationship="Self.FK_Departments_Employee" FromRole="Employee" ToRole="Departments" />
@@ -197,5 +197,8 @@
       <End Role="Project" EntitySet="Projects" />
       <End Role="Works_for" EntitySet="Works_for" />
     </AssociationSet>
+    <FunctionImport Name="GetEmployees" IsComposable="true" ReturnType="Collection(String)">
+      <Parameter Name="ProjectId" Mode="In" Type="Int32" />
+    </FunctionImport>
   </EntityContainer>
 </Schema>
