@@ -1,0 +1,15 @@
+C:\Users\youse\source\repos\EF\Exam(CS-OOP)\bin\Debug\net6.0\Exam(CS-OOP).exe
+C:\Users\youse\source\repos\EF\Exam(CS-OOP)\bin\Debug\net6.0\Exam(CS-OOP).deps.json
+C:\Users\youse\source\repos\EF\Exam(CS-OOP)\bin\Debug\net6.0\Exam(CS-OOP).runtimeconfig.json
+C:\Users\youse\source\repos\EF\Exam(CS-OOP)\bin\Debug\net6.0\Exam(CS-OOP).dll
+C:\Users\youse\source\repos\EF\Exam(CS-OOP)\bin\Debug\net6.0\Exam(CS-OOP).pdb
+C:\Users\youse\source\repos\EF\Exam(CS-OOP)\obj\Debug\net6.0\Exam(CS-OOP).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\EF\Exam(CS-OOP)\obj\Debug\net6.0\Exam(CS-OOP).AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\EF\Exam(CS-OOP)\obj\Debug\net6.0\Exam(CS-OOP).AssemblyInfo.cs
+C:\Users\youse\source\repos\EF\Exam(CS-OOP)\obj\Debug\net6.0\Exam(CS-OOP).csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\EF\Exam(CS-OOP)\obj\Debug\net6.0\Exam(CS-OOP).sourcelink.json
+C:\Users\youse\source\repos\EF\Exam(CS-OOP)\obj\Debug\net6.0\Exam(CS-OOP).dll
+C:\Users\youse\source\repos\EF\Exam(CS-OOP)\obj\Debug\net6.0\refint\Exam(CS-OOP).dll
+C:\Users\youse\source\repos\EF\Exam(CS-OOP)\obj\Debug\net6.0\Exam(CS-OOP).pdb
+C:\Users\youse\source\repos\EF\Exam(CS-OOP)\obj\Debug\net6.0\Exam(CS-OOP).genruntimeconfig.cache
+C:\Users\youse\source\repos\EF\Exam(CS-OOP)\obj\Debug\net6.0\ref\Exam(CS-OOP).dll

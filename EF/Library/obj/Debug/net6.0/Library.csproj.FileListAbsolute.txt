@@ -1,0 +1,15 @@
+C:\Users\youse\source\repos\EF\Library\bin\Debug\net6.0\Library.exe
+C:\Users\youse\source\repos\EF\Library\bin\Debug\net6.0\Library.deps.json
+C:\Users\youse\source\repos\EF\Library\bin\Debug\net6.0\Library.runtimeconfig.json
+C:\Users\youse\source\repos\EF\Library\bin\Debug\net6.0\Library.dll
+C:\Users\youse\source\repos\EF\Library\bin\Debug\net6.0\Library.pdb
+C:\Users\youse\source\repos\EF\Library\obj\Debug\net6.0\Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\EF\Library\obj\Debug\net6.0\Library.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\EF\Library\obj\Debug\net6.0\Library.AssemblyInfo.cs
+C:\Users\youse\source\repos\EF\Library\obj\Debug\net6.0\Library.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\EF\Library\obj\Debug\net6.0\Library.sourcelink.json
+C:\Users\youse\source\repos\EF\Library\obj\Debug\net6.0\Library.dll
+C:\Users\youse\source\repos\EF\Library\obj\Debug\net6.0\refint\Library.dll
+C:\Users\youse\source\repos\EF\Library\obj\Debug\net6.0\Library.pdb
+C:\Users\youse\source\repos\EF\Library\obj\Debug\net6.0\Library.genruntimeconfig.cache
+C:\Users\youse\source\repos\EF\Library\obj\Debug\net6.0\ref\Library.dll

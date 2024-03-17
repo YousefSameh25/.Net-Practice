@@ -1,0 +1,17 @@
+C:\Users\youse\source\repos\EF\Code first\bin\Debug\Code first.exe.config
+C:\Users\youse\source\repos\EF\Code first\bin\Debug\Code first.exe
+C:\Users\youse\source\repos\EF\Code first\bin\Debug\Code first.pdb
+C:\Users\youse\source\repos\EF\Code first\bin\Debug\EntityFramework.dll
+C:\Users\youse\source\repos\EF\Code first\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\youse\source\repos\EF\Code first\bin\Debug\EntityFramework.xml
+C:\Users\youse\source\repos\EF\Code first\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\youse\source\repos\EF\Code first\obj\Debug\Code first EF6.csproj.AssemblyReference.cache
+C:\Users\youse\source\repos\EF\Code first\obj\Debug\Code_first.Migrations.init.resources
+C:\Users\youse\source\repos\EF\Code first\obj\Debug\Code_first.Migrations.pdate.resources
+C:\Users\youse\source\repos\EF\Code first\obj\Debug\Code_first.Migrations.update.resources
+C:\Users\youse\source\repos\EF\Code first\obj\Debug\Code_first.Migrations.update1.resources
+C:\Users\youse\source\repos\EF\Code first\obj\Debug\Code first EF6.csproj.GenerateResource.cache
+C:\Users\youse\source\repos\EF\Code first\obj\Debug\Code first EF6.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\EF\Code first\obj\Debug\Code first EF6.csproj.CopyComplete
+C:\Users\youse\source\repos\EF\Code first\obj\Debug\Code first.exe
+C:\Users\youse\source\repos\EF\Code first\obj\Debug\Code first.pdb

@@ -1,0 +1,15 @@
+C:\Users\youse\source\repos\C#\Coding\bin\Debug\net6.0\Coding.exe
+C:\Users\youse\source\repos\C#\Coding\bin\Debug\net6.0\Coding.deps.json
+C:\Users\youse\source\repos\C#\Coding\bin\Debug\net6.0\Coding.runtimeconfig.json
+C:\Users\youse\source\repos\C#\Coding\bin\Debug\net6.0\Coding.dll
+C:\Users\youse\source\repos\C#\Coding\bin\Debug\net6.0\Coding.pdb
+C:\Users\youse\source\repos\C#\Coding\obj\Debug\net6.0\Coding.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\C#\Coding\obj\Debug\net6.0\Coding.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\C#\Coding\obj\Debug\net6.0\Coding.AssemblyInfo.cs
+C:\Users\youse\source\repos\C#\Coding\obj\Debug\net6.0\Coding.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\C#\Coding\obj\Debug\net6.0\Coding.sourcelink.json
+C:\Users\youse\source\repos\C#\Coding\obj\Debug\net6.0\Coding.dll
+C:\Users\youse\source\repos\C#\Coding\obj\Debug\net6.0\refint\Coding.dll
+C:\Users\youse\source\repos\C#\Coding\obj\Debug\net6.0\Coding.pdb
+C:\Users\youse\source\repos\C#\Coding\obj\Debug\net6.0\Coding.genruntimeconfig.cache
+C:\Users\youse\source\repos\C#\Coding\obj\Debug\net6.0\ref\Coding.dll

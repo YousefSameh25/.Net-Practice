@@ -1,0 +1,15 @@
+C:\Users\youse\source\repos\C#\Regex\bin\Debug\net6.0\Regex.exe
+C:\Users\youse\source\repos\C#\Regex\bin\Debug\net6.0\Regex.deps.json
+C:\Users\youse\source\repos\C#\Regex\bin\Debug\net6.0\Regex.runtimeconfig.json
+C:\Users\youse\source\repos\C#\Regex\bin\Debug\net6.0\Regex.dll
+C:\Users\youse\source\repos\C#\Regex\bin\Debug\net6.0\Regex.pdb
+C:\Users\youse\source\repos\C#\Regex\obj\Debug\net6.0\Regex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\C#\Regex\obj\Debug\net6.0\Regex.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\C#\Regex\obj\Debug\net6.0\Regex.AssemblyInfo.cs
+C:\Users\youse\source\repos\C#\Regex\obj\Debug\net6.0\Regex.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\C#\Regex\obj\Debug\net6.0\Regex.sourcelink.json
+C:\Users\youse\source\repos\C#\Regex\obj\Debug\net6.0\Regex.dll
+C:\Users\youse\source\repos\C#\Regex\obj\Debug\net6.0\refint\Regex.dll
+C:\Users\youse\source\repos\C#\Regex\obj\Debug\net6.0\Regex.pdb
+C:\Users\youse\source\repos\C#\Regex\obj\Debug\net6.0\Regex.genruntimeconfig.cache
+C:\Users\youse\source\repos\C#\Regex\obj\Debug\net6.0\ref\Regex.dll

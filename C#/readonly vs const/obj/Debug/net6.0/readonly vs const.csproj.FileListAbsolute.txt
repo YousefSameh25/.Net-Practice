@@ -1,0 +1,15 @@
+C:\Users\youse\source\repos\C#\readonly vs const\bin\Debug\net6.0\readonly vs const.exe
+C:\Users\youse\source\repos\C#\readonly vs const\bin\Debug\net6.0\readonly vs const.deps.json
+C:\Users\youse\source\repos\C#\readonly vs const\bin\Debug\net6.0\readonly vs const.runtimeconfig.json
+C:\Users\youse\source\repos\C#\readonly vs const\bin\Debug\net6.0\readonly vs const.dll
+C:\Users\youse\source\repos\C#\readonly vs const\bin\Debug\net6.0\readonly vs const.pdb
+C:\Users\youse\source\repos\C#\readonly vs const\obj\Debug\net6.0\readonly vs const.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\C#\readonly vs const\obj\Debug\net6.0\readonly vs const.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\C#\readonly vs const\obj\Debug\net6.0\readonly vs const.AssemblyInfo.cs
+C:\Users\youse\source\repos\C#\readonly vs const\obj\Debug\net6.0\readonly vs const.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\C#\readonly vs const\obj\Debug\net6.0\readonly vs const.sourcelink.json
+C:\Users\youse\source\repos\C#\readonly vs const\obj\Debug\net6.0\readonly vs const.dll
+C:\Users\youse\source\repos\C#\readonly vs const\obj\Debug\net6.0\refint\readonly vs const.dll
+C:\Users\youse\source\repos\C#\readonly vs const\obj\Debug\net6.0\readonly vs const.pdb
+C:\Users\youse\source\repos\C#\readonly vs const\obj\Debug\net6.0\readonly vs const.genruntimeconfig.cache
+C:\Users\youse\source\repos\C#\readonly vs const\obj\Debug\net6.0\ref\readonly vs const.dll

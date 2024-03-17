@@ -1,0 +1,15 @@
+C:\Users\youse\source\repos\Strategy\bin\Debug\net6.0\Strategy.exe
+C:\Users\youse\source\repos\Strategy\bin\Debug\net6.0\Strategy.deps.json
+C:\Users\youse\source\repos\Strategy\bin\Debug\net6.0\Strategy.runtimeconfig.json
+C:\Users\youse\source\repos\Strategy\bin\Debug\net6.0\Strategy.dll
+C:\Users\youse\source\repos\Strategy\bin\Debug\net6.0\Strategy.pdb
+C:\Users\youse\source\repos\Strategy\obj\Debug\net6.0\Strategy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\Strategy\obj\Debug\net6.0\Strategy.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\Strategy\obj\Debug\net6.0\Strategy.AssemblyInfo.cs
+C:\Users\youse\source\repos\Strategy\obj\Debug\net6.0\Strategy.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\Strategy\obj\Debug\net6.0\Strategy.sourcelink.json
+C:\Users\youse\source\repos\Strategy\obj\Debug\net6.0\Strategy.dll
+C:\Users\youse\source\repos\Strategy\obj\Debug\net6.0\refint\Strategy.dll
+C:\Users\youse\source\repos\Strategy\obj\Debug\net6.0\Strategy.pdb
+C:\Users\youse\source\repos\Strategy\obj\Debug\net6.0\Strategy.genruntimeconfig.cache
+C:\Users\youse\source\repos\Strategy\obj\Debug\net6.0\ref\Strategy.dll

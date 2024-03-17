@@ -4,11 +4,17 @@ using LINQ_with_data;
 
 namespace Built_in__Extension_Methods
 {
+    class Product
+    {
+        public int id { get; set; }
+        public string name { get; set; }
+        public int price { get; set; }
+    }
     internal class Program
     {
         static void Main(string[] args)
         {
-            IEnumerable<int> list = new List<int> { 2, 3, 4 };
+            List<int> list = new List<int> { 2, 3, 4 };
 
             #region Where
             IEnumerable<int> WhereRes = list.Where(x => x > 0);
@@ -19,6 +25,8 @@ namespace Built_in__Extension_Methods
             #endregion
 
             #region Aggregate
+            // Look at the description
+
             int pro = list.Aggregate((x, y) => x * y);
             Console.WriteLine(pro);
 
@@ -50,7 +58,7 @@ namespace Built_in__Extension_Methods
             list.Append(1); // We can use it with any collection implements IEnumerable.
             #endregion
 
-            #region As I..
+            #region As ..
             List<int> list2 = new List<int> { 1, 3, 4 };
 
             IEnumerable<int> IList = list2.AsEnumerable();
@@ -125,9 +133,11 @@ namespace Built_in__Extension_Methods
             #endregion
 
             #region Count
-            int cnt = list.Count(); // Can be used in all collections which implement IEnumerable.
+            int cnt = list.Count(); // Can be used in all collections that implement IEnumerable.
 
             int cnt2 = list.Count(i => i > 0); // Get number of records that satisfy the condition.
+
+            int cnt3 = list.Count; // Exists only in List.
             #endregion
 
             #region DefaultIfEmpty
@@ -144,13 +154,6 @@ namespace Built_in__Extension_Methods
 
             double AvgOnNewList = list.Average((x) => x * x);
             Console.WriteLine(AvgOnNewList);
-            #endregion
-
-            #region ElementAt
-            int value = list.ElementAt(0);
-
-            int ValueOrDefualt = list.ElementAtOrDefault(10);
-            // index is out of bounds -> return default value of the data type..
             #endregion
 
             #region Distinct
@@ -218,41 +221,6 @@ namespace Built_in__Extension_Methods
 
             #endregion
 
-            #region First
-            int front = list.First(); // If there is no result an exception will be thrown
-            Console.WriteLine($"Front = {front}");
-
-
-            int front2 = list.FirstOrDefault(); // Handle if the list is empty.
-            Console.WriteLine($"Front2 = {front2}");
-
-            int front3 = list.FirstOrDefault(-1); // Handle if the list is empty.
-            Console.WriteLine($"Front2 = {front2}");
-
-
-            // Return the first element satisfies the condition or return default.
-            int First = list.FirstOrDefault(x => x > 0);
-            int First2 = list.First(x => x > 0);
-            Console.WriteLine($"First = {First}");
-            #endregion
-
-            #region Last
-            int back = list.Last();
-            Console.WriteLine($"back = {back}");
-
-            int back2 = list.LastOrDefault();
-            Console.WriteLine($"back2 = {back2}");
-
-            int back3 = list.LastOrDefault(-1);
-            Console.WriteLine($"back2 = {back2}");
-
-
-            // Return the last element satisfies the condition or return default.
-            int Last = list.LastOrDefault(x => x < 0);
-            int Last2 = list.Last(x => x > 0);
-            Console.WriteLine($"Last = {Last}");
-            #endregion
-
             #region foreach for List
 
             List<int> l7 = new List<int> { 1, 2, 3, 4, 5 };
@@ -264,6 +232,8 @@ namespace Built_in__Extension_Methods
             // Get the top 1 from the given sequence.
             IEnumerable<int> Res = list.Take(1);
 
+            IEnumerable<int> Resss = list.TakeLast(1);
+
             // Takes from the begin all numbers until found an element doesn't satisfy the condition.
             IEnumerable<int> Ress = list.TakeWhile((i) => i > 0);
 
@@ -273,30 +243,30 @@ namespace Built_in__Extension_Methods
             // Skips n rows then return the remaining ones.
             IEnumerable<int> Res2 = list.Skip(1);
 
+            IEnumerable<int> Resss2 = list.SkipLast(1);
+
             // Skips from the begin all numbers that satisfy the condition and return the remaining.
             IEnumerable<int> Ress2 = list.SkipWhile((x) => x > 0);
             #endregion
 
             #region Max & Min
 
+            // If there is no lambda given -> there must be one element that implement Icomparable.
             int mx = list.Max();
-            Console.WriteLine($"max = {mx}");
 
-            int mx2 = list.Max((x) => x); // The given lamda will determine how to evaluate the max
-            Console.WriteLine(mx2);
+            // The given lambda will determine which attribute will be used to determine the max.
+            int mx2 = list.Max(x => x);
 
-            int mx3 = list.MaxBy((x) => x);
+            int mx3 = list.MaxBy(x => x);
 
             /*
                 Max will directly return the maximum value itself.
                 MaxBy will return the entire element associated with that maximum value.
             */
-
+            // If there is no lambda given -> there must be one element that implement Icomparable.
             int mn = list.Min();
-            Console.WriteLine($"min = {mn}");
 
-            int mn2 = list.Min((x) => x); // The given lamda will determine how to evaluate the max
-            Console.WriteLine(mn2);
+            int mn2 = list.Min(x => x);
 
             int mn3 = list.MinBy((x) => x);
 
@@ -313,28 +283,99 @@ namespace Built_in__Extension_Methods
 
             // If we want to order by name then age
 
-            IEnumerable<int> ress3 = list.OrderByDescending(x => x).ThenBy(x => x);
+            IEnumerable<int> ress3 = list.OrderBy(x => x).ThenBy(x => x);
 
-            IEnumerable<int> ress4 = list.OrderByDescending(x => x).OrderByDescending(x => x);
+            IEnumerable<int> ress4 = list.OrderByDescending(x => x).ThenByDescending(x => x);
 
             #endregion
 
             #region GroupBy
+
+            List<Product> PL = new List<Product>();
+
             //                 <Key, Elements type>
-            IEnumerable<IGrouping<int, int>> groups = list.GroupBy(x => x);
+            IEnumerable<IGrouping<int, Product>> groups = PL.GroupBy(P => P.price);
 
             // IGrouping is an list with key attribute.
             // Key attribute is used to store the attribute which we used in GroupBy.
             foreach (var group in groups)
             {
-                Console.WriteLine($"Group: {group.Key}");
-                foreach (var rows in group)
-                {
-                    Console.WriteLine(rows);
-                }
+                Console.WriteLine($"Group: {group.Key}"); // Price
+
+                foreach (var item in group)
+                    Console.WriteLine(item.name);
+
                 Console.WriteLine("-------------------");
             }
             #endregion
+
+
+            // Any extension method from the following returns 1 object is (immediate excution).
+            #region First
+            List<object> objects = new List<object>();
+
+            // If there is no result an exception will be thrown as the return value is nullable object
+            var front = objects.First();
+
+            // Will return the defualt value for the datatype of the sequence (here is null) with no exception.
+            var front2 = objects.FirstOrDefault();
+
+            // Handle if the list is empty.
+            var front3 = objects.FirstOrDefault(-1);
+
+
+            // Return the first element satisfies the condition or return default.
+            int First = list.FirstOrDefault(x => x > 0);
+            int First2 = list.First(x => x > 0);
+            #endregion
+
+            #region Last
+            int back = list.Last();
+
+            int back2 = list.LastOrDefault();
+
+            int back3 = list.LastOrDefault(-1);
+
+
+            // Return the last element satisfies the condition or return default.
+            int Last = list.LastOrDefault(x => x < 0);
+            int Last2 = list.Last(x => x > 0);
+            Console.WriteLine($"Last = {Last}");
+            #endregion
+
+            #region ElementAt
+            int value = list.ElementAt(0);
+
+            int ValueOrDefualt = list.ElementAtOrDefault(10);
+            // index is out of bounds -> return default value of the data type..
+            #endregion
+
+            #region Single
+
+            // If the sequence has just 1 element (ok), otherwise throw an exception.
+            var result10 = list.Single();
+
+            // If the sequence has just 1 element match the condition (ok), otherwise throw an exception.
+            result10 = list.Single(x => x % 2 == 0);
+
+
+            // Find vs. Single
+            // Find -> if there are many objects can be a result -> it will return the first object.
+            // Single -> if there are many objects can be a result (or) no result -> it will throw an exception.
+            #endregion
+
+            // Other functions in Enumerable class but can be used only by calling the class.
+
+            #region Range
+            var result11 = Enumerable.Range(0, 5); // 0 1 2 3 4
+            #endregion
+
+            #region Repeat
+            var result12 = Enumerable.Repeat(1, 3); // 1 1 1
+
+            var result13 = Enumerable.Repeat(new object(), 5);
+            #endregion
+
         }
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\youse\source\repos\Design Patterns\Visitor\bin\Debug\net6.0\Visitor.exe
+C:\Users\youse\source\repos\Design Patterns\Visitor\bin\Debug\net6.0\Visitor.deps.json
+C:\Users\youse\source\repos\Design Patterns\Visitor\bin\Debug\net6.0\Visitor.runtimeconfig.json
+C:\Users\youse\source\repos\Design Patterns\Visitor\bin\Debug\net6.0\Visitor.dll
+C:\Users\youse\source\repos\Design Patterns\Visitor\bin\Debug\net6.0\Visitor.pdb
+C:\Users\youse\source\repos\Design Patterns\Visitor\obj\Debug\net6.0\Visitor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\Design Patterns\Visitor\obj\Debug\net6.0\Visitor.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\Design Patterns\Visitor\obj\Debug\net6.0\Visitor.AssemblyInfo.cs
+C:\Users\youse\source\repos\Design Patterns\Visitor\obj\Debug\net6.0\Visitor.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\Design Patterns\Visitor\obj\Debug\net6.0\Visitor.sourcelink.json
+C:\Users\youse\source\repos\Design Patterns\Visitor\obj\Debug\net6.0\Visitor.dll
+C:\Users\youse\source\repos\Design Patterns\Visitor\obj\Debug\net6.0\refint\Visitor.dll
+C:\Users\youse\source\repos\Design Patterns\Visitor\obj\Debug\net6.0\Visitor.pdb
+C:\Users\youse\source\repos\Design Patterns\Visitor\obj\Debug\net6.0\Visitor.genruntimeconfig.cache
+C:\Users\youse\source\repos\Design Patterns\Visitor\obj\Debug\net6.0\ref\Visitor.dll
