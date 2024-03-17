@@ -1,0 +1,15 @@
+﻿<table class="table table-bordered">
+    @{
+        foreach (Product p in Model)
+        {
+            <tr>
+                <td> @p.Name </td>
+                <td> <img src="/Images/@p.Image" /> </td>
+
+                @*  There is other ways to navigate to another action ex. "Tag Helper" - "Action Link"  *@
+                <td> <a href="/Product/GetProductDetails/@p.ID"> Details </a> </td>
+
+            </tr>
+        }
+    }
+</table>

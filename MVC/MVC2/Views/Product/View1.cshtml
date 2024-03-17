@@ -1,0 +1,32 @@
+﻿<h1> Welcome in ITI </h1>
+
+<div id="div1">
+    @{
+        int n = 5;
+        while (n > 0)
+        {
+            // Inline expression
+            <h3> @(5 - n + 1) </h3>
+            n--;
+        }
+    }
+</div>
+@*
+   - CSS code must be defined in <style> tag.
+   - JS code must be defined in <script> tag.
+   - C# code must be defined in @{}.
+*@
+
+<style>
+    #div1 {
+        background-color: blue
+    }
+</style>
+
+<script>
+    alert("Hello");
+</script>
+
+@*
+C# + HTML ==Render==> HTML + CSS + JS (at compile time) as the client can not understand C# code.
+*@
