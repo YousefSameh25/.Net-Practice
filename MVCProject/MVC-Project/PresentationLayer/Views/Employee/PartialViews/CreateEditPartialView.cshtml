@@ -1,0 +1,67 @@
+﻿@model EmployeeViewModel
+
+
+<div>
+    <input asp-for="ImageName" hidden />
+</div>
+
+<div class="mb-3">
+    <label class="form-label"> @Html.DisplayNameFor(E => E.Name) </label>
+    <input class="form-control" asp-for="Name"> @* Link the form data to a employee object *@
+    <span asp-validation-for="Name" class="text-danger"> </span>
+</div>
+
+<div class="mb-3">
+    <label class="col-form-label" asp-for="Image"> </label>
+    <input class="form-control" asp-for="Image"> @* Link the form data to a employee object *@
+</div>
+
+<div class="mb-3">
+    <label class="form-label"> @Html.DisplayNameFor(E => E.Age) </label>
+    <input class="form-control" asp-for="Age"> @* Link the form data to a employee object *@
+    <span asp-validation-for="Age" class="text-danger"> </span>
+</div>
+
+<div class="mb-3">
+    <label class="form-label"> @Html.DisplayNameFor(E => E.Address) </label>
+    <input class="form-control" asp-for="Address"> @* Link the form data to a employee object *@
+    <span asp-validation-for="Address" class="text-danger"> </span>
+</div>
+
+<div class="mb-3">
+    <label class="form-label"> @Html.DisplayNameFor(E => E.Salary) </label>
+    <input class="form-control" asp-for="Salary"> @* Link the form data to a employee object *@
+    <span asp-validation-for="Salary" class="text-danger"> </span>
+</div>
+
+<div class="mb-3">
+    <label class="form-label"> Department </label>
+    <select class="form-control" asp-items="@ViewBag.Departments" asp-for="DepartmentId">
+        <option value="@null"> ------- Select Department ------- </option>
+    </select>
+
+</div>
+
+<div class="mb-3">
+    <label class="form-label"> @Html.DisplayNameFor(E => E.Email) </label>
+    <input class="form-control" asp-for="Email"> @* Link the form data to a employee object *@
+    <span asp-validation-for="Email" class="text-danger"> </span>
+</div>
+
+<div class="mb-3">
+    <label class="form-label"> @Html.DisplayNameFor(E => E.PhoneNumber) </label>
+    <input class="form-control" asp-for="PhoneNumber"> @* Link the form data to a employee object *@
+    <span asp-validation-for="PhoneNumber" class="text-danger"> </span>
+</div>
+
+<div class="mb-3">
+    <label class="form-label"> @Html.DisplayNameFor(E => E.HireDate) </label>
+    <input class="form-control" asp-for="HireDate"> @* Link the form data to a employee object *@
+    <span asp-validation-for="HireDate" class="text-danger"> </span>
+</div>
+
+<div class="mb-3">
+    <label class="form-label"> @Html.DisplayNameFor(E => E.IsActive) </label>
+    <input class="form-control" asp-for="IsActive"> @* Link the form data to a employee object *@
+    <span asp-validation-for="IsActive" class="text-danger"> </span>
+</div>

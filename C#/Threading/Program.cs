@@ -92,7 +92,7 @@ namespace Threading
             /*
               //<Return type>
               Task<int> task2 = Task.Run(() => HasReturn());
-              TaskAwaiter<int> awaiter = task2.GetAwaiter(); // Awaiter just waits the task to be compeleted.
+              TaskAwaiter<int> awaiter = task2.GetAwaiter(); // Awaiter just waits the task to be completed.
               awaiter.OnCompleted(() => Console.WriteLine(task2.Result));
               // I used the those two lines to make the code continues although the result has not been calculated yet.
             */
@@ -111,7 +111,7 @@ namespace Threading
                 if (i == 500)
                     Thread.Sleep(TimeSpan.FromSeconds(1));
                 // Note that sleep function is static
-                // and it will sleep the the thread which this function belongs to.
+                // and it will sleep the thread which this function belongs to.
             }
         }
         //static void PrintY()

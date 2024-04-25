@@ -1,0 +1,15 @@
+C:\Users\youse\source\repos\MVC\Try some codes\bin\Debug\net6.0\Try some codes.exe
+C:\Users\youse\source\repos\MVC\Try some codes\bin\Debug\net6.0\Try some codes.deps.json
+C:\Users\youse\source\repos\MVC\Try some codes\bin\Debug\net6.0\Try some codes.runtimeconfig.json
+C:\Users\youse\source\repos\MVC\Try some codes\bin\Debug\net6.0\Try some codes.dll
+C:\Users\youse\source\repos\MVC\Try some codes\bin\Debug\net6.0\Try some codes.pdb
+C:\Users\youse\source\repos\MVC\Try some codes\obj\Debug\net6.0\Try some codes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\MVC\Try some codes\obj\Debug\net6.0\Try some codes.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\MVC\Try some codes\obj\Debug\net6.0\Try some codes.AssemblyInfo.cs
+C:\Users\youse\source\repos\MVC\Try some codes\obj\Debug\net6.0\Try some codes.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\MVC\Try some codes\obj\Debug\net6.0\Try some codes.sourcelink.json
+C:\Users\youse\source\repos\MVC\Try some codes\obj\Debug\net6.0\Try some codes.dll
+C:\Users\youse\source\repos\MVC\Try some codes\obj\Debug\net6.0\refint\Try some codes.dll
+C:\Users\youse\source\repos\MVC\Try some codes\obj\Debug\net6.0\Try some codes.pdb
+C:\Users\youse\source\repos\MVC\Try some codes\obj\Debug\net6.0\Try some codes.genruntimeconfig.cache
+C:\Users\youse\source\repos\MVC\Try some codes\obj\Debug\net6.0\ref\Try some codes.dll

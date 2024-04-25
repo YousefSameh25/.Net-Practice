@@ -1,0 +1,15 @@
+C:\Users\youse\source\repos\C#\AsyncAwait\bin\Debug\net6.0\AsyncAwait.exe
+C:\Users\youse\source\repos\C#\AsyncAwait\bin\Debug\net6.0\AsyncAwait.deps.json
+C:\Users\youse\source\repos\C#\AsyncAwait\bin\Debug\net6.0\AsyncAwait.runtimeconfig.json
+C:\Users\youse\source\repos\C#\AsyncAwait\bin\Debug\net6.0\AsyncAwait.dll
+C:\Users\youse\source\repos\C#\AsyncAwait\bin\Debug\net6.0\AsyncAwait.pdb
+C:\Users\youse\source\repos\C#\AsyncAwait\obj\Debug\net6.0\AsyncAwait.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\C#\AsyncAwait\obj\Debug\net6.0\AsyncAwait.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\C#\AsyncAwait\obj\Debug\net6.0\AsyncAwait.AssemblyInfo.cs
+C:\Users\youse\source\repos\C#\AsyncAwait\obj\Debug\net6.0\AsyncAwait.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\C#\AsyncAwait\obj\Debug\net6.0\AsyncAwait.sourcelink.json
+C:\Users\youse\source\repos\C#\AsyncAwait\obj\Debug\net6.0\AsyncAwait.dll
+C:\Users\youse\source\repos\C#\AsyncAwait\obj\Debug\net6.0\refint\AsyncAwait.dll
+C:\Users\youse\source\repos\C#\AsyncAwait\obj\Debug\net6.0\AsyncAwait.pdb
+C:\Users\youse\source\repos\C#\AsyncAwait\obj\Debug\net6.0\AsyncAwait.genruntimeconfig.cache
+C:\Users\youse\source\repos\C#\AsyncAwait\obj\Debug\net6.0\ref\AsyncAwait.dll

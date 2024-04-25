@@ -107,11 +107,47 @@ namespace MVC2.Controllers
          */
         #endregion
 
+
+
+        // We can bind data from actions to view (C# -> View) using some ways:
+        // 1 - Model (dynamic).
+        // 2 - ViewData (Dictionary <string, object?>).
+        // 3 - ViewBag (Dynamic ViewData)
+        // 4 - ViewModel (Mix of some models).
+
+        // Look at this action for all details:
         public IActionResult GetProductDetails(int id)
         {
+
             ProductsSampleData PSD = new ProductsSampleData();
+
+            // ProductController inherits ViewData from Controller Class.
+            // View inherits ViewData from RazorPage.
+            // When we call the view the compiler takes a clone from VD in controller to VD in View.
+            // Is used to send extra information.
+            // key -> string, Value -> object.
+            ViewData["Message"] = "Data from ViewData";
+
+
+            // ViewBag is a dynamic ViewData.
+            // Contains a ViewData inside it.
+            // It is not a new property, it just read and write in ViewData property.
+            // You can see this when we write here in ViewData and read from ViewBag in the view.
+            ViewBag.Message = "Data from ViewBag";
+
+            // ViewModel
+            // Is to create a temporary class which will include a data not represented in database,
+            // Ex) Department, Employee.
+            // It is a best practice to make all ViewModels in a separated project.
+            // Now I realize the difference between model in MVC and model in DataAccessLayer.
+
+
             // Passing the view name and the model
-            return View("ProductDetails", PSD.GetById(id));
+            // When we create a view, compiler does the following:
+            // Create a class which inherits from RazorPage<T> class which has T Model as a property.
+            // So I have to determine the T when I create a view? No, as by default Microsoft made T = dynamic.
+            // And I can only specify the type of T in view using "@model List<int>".
+            return View("ProductDetails", PSD.GetById(id)); // Passing model to the view.
         }
 
         public IActionResult GetAllProducts()
@@ -120,6 +156,9 @@ namespace MVC2.Controllers
             // Passing the view name and the model
             return View("AllProducts", PSD.GetAll());
         }
+
+
+
 
     }
 }

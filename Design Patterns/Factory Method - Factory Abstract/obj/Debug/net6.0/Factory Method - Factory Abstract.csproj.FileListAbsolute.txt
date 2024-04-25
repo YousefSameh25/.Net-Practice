@@ -1,0 +1,15 @@
+C:\Users\youse\source\repos\Design Patterns\Factory Method - Factory Abstract\bin\Debug\net6.0\Factory Method - Factory Abstract.exe
+C:\Users\youse\source\repos\Design Patterns\Factory Method - Factory Abstract\bin\Debug\net6.0\Factory Method - Factory Abstract.deps.json
+C:\Users\youse\source\repos\Design Patterns\Factory Method - Factory Abstract\bin\Debug\net6.0\Factory Method - Factory Abstract.runtimeconfig.json
+C:\Users\youse\source\repos\Design Patterns\Factory Method - Factory Abstract\bin\Debug\net6.0\Factory Method - Factory Abstract.dll
+C:\Users\youse\source\repos\Design Patterns\Factory Method - Factory Abstract\bin\Debug\net6.0\Factory Method - Factory Abstract.pdb
+C:\Users\youse\source\repos\Design Patterns\Factory Method - Factory Abstract\obj\Debug\net6.0\Factory Method - Factory Abstract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\Design Patterns\Factory Method - Factory Abstract\obj\Debug\net6.0\Factory Method - Factory Abstract.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\Design Patterns\Factory Method - Factory Abstract\obj\Debug\net6.0\Factory Method - Factory Abstract.AssemblyInfo.cs
+C:\Users\youse\source\repos\Design Patterns\Factory Method - Factory Abstract\obj\Debug\net6.0\Factory Method - Factory Abstract.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\Design Patterns\Factory Method - Factory Abstract\obj\Debug\net6.0\Factory Method - Factory Abstract.sourcelink.json
+C:\Users\youse\source\repos\Design Patterns\Factory Method - Factory Abstract\obj\Debug\net6.0\Factory Method - Factory Abstract.dll
+C:\Users\youse\source\repos\Design Patterns\Factory Method - Factory Abstract\obj\Debug\net6.0\refint\Factory Method - Factory Abstract.dll
+C:\Users\youse\source\repos\Design Patterns\Factory Method - Factory Abstract\obj\Debug\net6.0\Factory Method - Factory Abstract.pdb
+C:\Users\youse\source\repos\Design Patterns\Factory Method - Factory Abstract\obj\Debug\net6.0\Factory Method - Factory Abstract.genruntimeconfig.cache
+C:\Users\youse\source\repos\Design Patterns\Factory Method - Factory Abstract\obj\Debug\net6.0\ref\Factory Method - Factory Abstract.dll

@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "7q1nF5DDXFUO+/Q7b7ziKXIASRz0EfJABN+AEokMYnY=",
+  "Source": "API-Project",
+  "BasePath": "_content/API-Project",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "API-Project\\wwwroot",
+      "Source": "API-Project",
+      "ContentRoot": "C:\\Users\\youse\\source\\repos\\APIProject\\API-Project\\API-Project\\wwwroot\\",
+      "BasePath": "_content/API-Project",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

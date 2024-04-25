@@ -1,0 +1,16 @@
+C:\Users\youse\source\repos\MVCProject\MVC-Project\BusinessLogicLayer\bin\Debug\net5.0\BusinessLogicLayer.deps.json
+C:\Users\youse\source\repos\MVCProject\MVC-Project\BusinessLogicLayer\bin\Debug\net5.0\BusinessLogicLayer.dll
+C:\Users\youse\source\repos\MVCProject\MVC-Project\BusinessLogicLayer\bin\Debug\net5.0\BusinessLogicLayer.pdb
+C:\Users\youse\source\repos\MVCProject\MVC-Project\BusinessLogicLayer\bin\Debug\net5.0\DataAccessLayer.dll
+C:\Users\youse\source\repos\MVCProject\MVC-Project\BusinessLogicLayer\bin\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\youse\source\repos\MVCProject\MVC-Project\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\youse\source\repos\MVCProject\MVC-Project\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\MVCProject\MVC-Project\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\MVCProject\MVC-Project\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.AssemblyInfo.cs
+C:\Users\youse\source\repos\MVCProject\MVC-Project\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\MVCProject\MVC-Project\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.sourcelink.json
+C:\Users\youse\source\repos\MVCProject\MVC-Project\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.csproj.CopyComplete
+C:\Users\youse\source\repos\MVCProject\MVC-Project\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.dll
+C:\Users\youse\source\repos\MVCProject\MVC-Project\BusinessLogicLayer\obj\Debug\net5.0\refint\BusinessLogicLayer.dll
+C:\Users\youse\source\repos\MVCProject\MVC-Project\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.pdb
+C:\Users\youse\source\repos\MVCProject\MVC-Project\BusinessLogicLayer\obj\Debug\net5.0\ref\BusinessLogicLayer.dll

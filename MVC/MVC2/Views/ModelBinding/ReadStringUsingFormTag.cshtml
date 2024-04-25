@@ -1,0 +1,72 @@
+﻿<form method="post">
+    <input type="text" name="Name" /> @* Pure HTML *@
+    <button type="submit"> Send </button>
+</form>
+
+
+@*
+    3 ways to bind data from input field to action:
+    1 - Pure HTML.
+    2 - HTML Helper. (.Net Framework, .Net Core)
+    3 - Tag Helper. (.Net Core)
+*@
+
+@*
+    HTML helper:
+    HTML has some extension methods (returns a rendered HTML code)..
+
+    Type 1) Lossly type helper:
+
+    ex1) @html.TextBox("Salary") => <input type="text" name="Salary">
+    ex2) @html.CheckBox("Color") => <input type="checkbox" name="Color">
+
+    Type 2) Strong type helper:
+
+    ex1) @html.TextBoxFor(e => e.Salary) => <input type="text" name="Salary">
+    ex2) @html.CheckBoxFor(e => e.Color) => <input type="checkbox" name="Color">
+
+    To specify a class or some HTML attributes:
+    ex3) @html.CheckBoxFor(e => e.Color, new {style: "color:red", placeholder="Enter Color:", @class = "form-control"})
+
+    To navigate to an action (Anchor tag in HTML helper):
+    ex4) @html.ActionLink(LinkText, ActionName, ControllerName, RouteValues, HTMLAttributes)
+
+*@
+
+@*
+    Tag Helper:
+    <input asp-for="Name"> </input> => will put id = "Name" Name="Name"
+
+    Note:
+    - "asp-for" is a server side attribute.
+    - "asp-for" the razor engine will convert it to HTML code.
+
+    To navigate to an action:
+    <a asp-action="" asp-controller="">  </a> 
+
+    How to pass a parameter to an action:
+    - asp-route-parameterName= "" (Will be sent as a segment in the URL)
+
+    How to send many parameters:
+    - use asp-all-route-data = "Dictionary Name"
+
+   For more attributes:
+   https://learn.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-8.0
+
+*@
+
+@*
+    If we want to create a view which create a new employee and I want to use Tag Helper,
+    but using tag helper requires to work with strong typed view "@Model Employee",
+    when you send null on @Model all the input fields will be empty with no exceptions.
+
+*@
+
+@*
+    Layout: is a view used to store the common parts between some views (static parts).
+    and the single dynamic part we call @RenderBody() inside the layout.
+
+    and the view specify the layout which it uses: put @Layout = "layout.cshtml" in view page or viewStart.
+
+    what if we have more than 1 dynamic part? we can use @RenderSection.
+*@

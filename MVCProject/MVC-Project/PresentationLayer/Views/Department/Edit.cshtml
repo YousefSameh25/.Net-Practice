@@ -1,0 +1,34 @@
+﻿@model Department
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit @Model.Name Department </h1>
+
+<div asp-validation-summary="All"> </div>
+
+<form asp-action="Edit">
+
+    <div class="mb-3">
+        <label class="form-label"> @Html.DisplayNameFor(D => D.Code) </label>
+        <input class="form-control" asp-for="Code"> @* Link the form data to a department object *@
+        <span asp-validation-for="Code" class="text-danger"> </span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label"> @Html.DisplayNameFor(D => D.Name) </label>
+        <input class="form-control" asp-for="Name"> @* Link the form data to a department object *@
+        <span asp-validation-for="Name" class="text-danger"> </span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label"> @Html.DisplayNameFor(D => D.DateOfCreation) </label>
+        <input class="form-control" asp-for="DateOfCreation"> @* Link the form data to a department object *@
+        <span asp-validation-for="DateOfCreation" class="text-danger"> </span>
+    </div>
+
+    <input type="submit" value="Save" class="btn btn-primary" />
+
+    <a asp-action="Index" class="btn btn-light"> Back To List </a>
+</form>

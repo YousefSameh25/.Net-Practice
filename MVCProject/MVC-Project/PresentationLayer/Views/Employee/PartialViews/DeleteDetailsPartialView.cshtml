@@ -1,0 +1,52 @@
+﻿@model EmployeeViewModel
+
+@{
+    if (Model.ImageName is not null)
+    {
+        <div>
+            <input asp-for="ImageName" hidden />
+            <img src="~/Files/Images/@Model.ImageName" class="rounded" width="100" height="100" />
+        </div>
+    }
+}
+
+
+<div class="mb-3">
+    <label class="form-label"> @Html.DisplayNameFor(E => E.Name) </label>
+    <input readonly class="form-control" asp-for="Name"> @* Link the form data to a employee object *@
+</div>
+
+<div class="mb-3">
+    <label class="form-label"> @Html.DisplayNameFor(E => E.Age) </label>
+    <input readonly class="form-control" asp-for="Age"> @* Link the form data to a employee object *@
+</div>
+
+<div class="mb-3">
+    <label class="form-label"> @Html.DisplayNameFor(E => E.Address) </label>
+    <input readonly class="form-control" asp-for="Address"> @* Link the form data to a employee object *@
+</div>
+
+<div class="mb-3">
+    <label class="form-label"> @Html.DisplayNameFor(E => E.Salary) </label>
+    <input readonly class="form-control" asp-for="Salary"> @* Link the form data to a employee object *@
+</div>
+
+<div class="mb-3">
+    <label class="form-label"> @Html.DisplayNameFor(E => E.Email) </label>
+    <input readonly class="form-control" asp-for="Email"> @* Link the form data to a employee object *@
+</div>
+
+<div class="mb-3">
+    <label class="form-label"> @Html.DisplayNameFor(E => E.PhoneNumber) </label>
+    <input readonly class="form-control" asp-for="PhoneNumber"> @* Link the form data to a employee object *@
+</div>
+
+<div class="mb-3">
+    <label class="form-label"> @Html.DisplayNameFor(E => E.HireDate) </label>
+    <input readonly class="form-control" asp-for="HireDate"> @* Link the form data to a employee object *@
+</div>
+
+<div class="mb-3">
+    <label class="form-label"> @Html.DisplayNameFor(E => E.IsActive) </label>
+    <input readonly class="form-control" asp-for="IsActive"> @* Link the form data to a employee object *@
+</div>

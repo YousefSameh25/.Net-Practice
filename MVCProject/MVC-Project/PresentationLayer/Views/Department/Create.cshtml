@@ -1,0 +1,31 @@
+﻿@model Department
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1> Create New Department </h1>
+
+
+<form asp-action="Create">
+    <div class="mb-3">
+        <label class="form-label"> @Html.DisplayNameFor(D => D.Code) </label>
+        <input class="form-control" asp-for="Code"> @* Link the form data to a department object *@
+        <span asp-validation-for="Code" class="text-danger"> </span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label"> @Html.DisplayNameFor(D => D.Name) </label>
+        <input class="form-control" asp-for="Name"> @* Link the form data to a department object *@
+        <span asp-validation-for="Name" class="text-danger"> </span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label"> @Html.DisplayNameFor(D => D.DateOfCreation) </label>
+        <input class="form-control" asp-for="DateOfCreation"> @* Link the form data to a department object *@
+        <span asp-validation-for="DateOfCreation" class="text-danger"> </span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <a asp-action="Index" class="btn btn-light"> Back To List </a>
+</form>

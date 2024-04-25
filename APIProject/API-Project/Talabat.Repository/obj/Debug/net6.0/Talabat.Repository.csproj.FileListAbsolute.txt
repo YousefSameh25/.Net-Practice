@@ -1,0 +1,16 @@
+C:\Users\youse\source\repos\APIProject\API-Project\Talabat.Repository\bin\Debug\net6.0\Talabat.Repository.deps.json
+C:\Users\youse\source\repos\APIProject\API-Project\Talabat.Repository\bin\Debug\net6.0\Talabat.Repository.dll
+C:\Users\youse\source\repos\APIProject\API-Project\Talabat.Repository\bin\Debug\net6.0\Talabat.Repository.pdb
+C:\Users\youse\source\repos\APIProject\API-Project\Talabat.Repository\bin\Debug\net6.0\Talabat.Core.dll
+C:\Users\youse\source\repos\APIProject\API-Project\Talabat.Repository\bin\Debug\net6.0\Talabat.Core.pdb
+C:\Users\youse\source\repos\APIProject\API-Project\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.csproj.AssemblyReference.cache
+C:\Users\youse\source\repos\APIProject\API-Project\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\APIProject\API-Project\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\APIProject\API-Project\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.AssemblyInfo.cs
+C:\Users\youse\source\repos\APIProject\API-Project\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\APIProject\API-Project\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.sourcelink.json
+C:\Users\youse\source\repos\APIProject\API-Project\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.csproj.CopyComplete
+C:\Users\youse\source\repos\APIProject\API-Project\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.dll
+C:\Users\youse\source\repos\APIProject\API-Project\Talabat.Repository\obj\Debug\net6.0\refint\Talabat.Repository.dll
+C:\Users\youse\source\repos\APIProject\API-Project\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.pdb
+C:\Users\youse\source\repos\APIProject\API-Project\Talabat.Repository\obj\Debug\net6.0\ref\Talabat.Repository.dll
