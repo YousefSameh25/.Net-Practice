@@ -42,7 +42,7 @@
     - "asp-for" the razor engine will convert it to HTML code.
 
     To navigate to an action:
-    <a asp-action="" asp-controller="">  </a> 
+    <a asp-action="" asp-controller="">  </a>
 
     How to pass a parameter to an action:
     - asp-route-parameterName= "" (Will be sent as a segment in the URL)
@@ -69,4 +69,38 @@
     and the view specify the layout which it uses: put @Layout = "layout.cshtml" in view page or viewStart.
 
     what if we have more than 1 dynamic part? we can use @RenderSection.
+*@
+
+@*
+    When stateModel has a key = "Name":
+        <span asp-validation-for="Name"> </span> this line will display error message when we enter a wrong value to the field.
+    Otherwise:
+        <div asp-validation-summary="All">  </div>
+*@
+
+@*
+
+    What about client server validation?
+
+    when we put an attribute such as [required] by default the client is enabled if you are using tag helper in <input>
+    as the tag helper will write the following:
+        <input data-require="true">  </input>
+    but "data-require" is a server side attribute that require to be understood by browser or the browser will ignore it.
+
+    So how to understand it?
+    the package that understand "data-require" is 'Jquery.unobtrustive' package
+    which requires 'Jquery.Validation.min' package which requires 'Jquery' package.
+
+    we must add a script tag in the view with src of the package to allow the browser understand it:
+    <script src="BlaBlaBlaBla"> </script>
+
+
+    by default the package is installed in wwwroot folder.
+
+    General note 'How to install a client side library'
+    - right click on the project -> Add -> Client side library. 
+
+    Note that if a view wants <script src="BlaBlaBlaBla"> </script> and the layout has the same script
+        so the script will be read twice and that is expensive so use section to manage this problem.
+
 *@

@@ -1,0 +1,22 @@
+#customers {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#customers td,  #customers th{
+    padding: 8px;
+    border: solid 2px #ddd;
+}
+
+#customers th{
+    background-color: lightblue;
+}
+
+#customers tr:hover
+{
+    background-color: rgb(211, 205, 198);
+}
+#customers tr:nth-child(even) {
+    background-color: bisque;
+}

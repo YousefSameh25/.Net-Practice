@@ -1,0 +1,130 @@
+/*
+    we can style HTML using:
+
+    1) Type Selector 
+    p {
+        color: blue;
+    }
+
+    2) Class Selector 
+    .highlight {
+        background-color: yellow;
+    }
+
+    3) ID Selector 
+    #header {
+        font-size: 24px;
+    }
+*/
+
+/* Type selector */
+body { 
+    background-color: bisque;
+    color: rgba(255, 255, 255, 1); /* is alpha -> opacity */
+    /* There are some different systems like hexa, hsl */
+
+    background-image: url("C:/Users/youse/Downloads/Nice.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* when scroll the image will be fixed*/
+
+    /* 
+        we can group some properties in one line
+        background: no-repeat fixed;
+    */
+}
+
+
+/* Id selector */
+#div1 {
+    border-style: dotted;
+    border-width: medium; /* thick , thin */
+    border-color: blue;
+    outline: solid 2px red;
+    border-bottom-style: solid;
+
+    /*
+        border-style: solid dashed dotted double; Clockwise
+        1)Top border
+        2)Right border
+        3)Bottom border
+        4)Left border
+    */
+
+    border-radius: 8px;
+
+    margin: 10px; /* Space between element and outer world */
+
+    padding: 5px; /* Space between element and iner world */
+}
+
+::selection {
+    background-color: black;
+    color: white;
+}
+
+
+#div2 p {
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+
+    letter-spacing: 4px;
+    word-spacing: 6px;
+
+    text-indent: 20px; /* Specify the space before the start */
+    text-shadow: 10px 10px white;
+    
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#div2 p::first-letter { /* Scope resolution */
+    color: black;
+    font-size: 40px;
+}
+
+#div3 a:link /* not visited */
+{
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+    margin: 50px;
+    display: inline-block; /* that modifies the behavior of element*/
+}
+
+#div3 a:visited
+{
+    color: white;
+    text-decoration: none; 
+}
+
+#div3 a:hover
+{
+    color: red;
+    text-decoration: none;
+}
+
+#ul1 {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+
+
+
+/*
+    Combinator:
+    p {} => All p tages in the html file.
+    div p {} => All p inside a div at any deep point (direct or not).
+    div>p {} => configure p that a direct child of div.
+    div~p {} => many p after div 3la nafs elmostawa.
+    div+p {} => single p after div 3la nafs elmostawa.
+*/
+
+
+

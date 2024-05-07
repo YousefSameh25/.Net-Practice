@@ -1,0 +1,31 @@
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\bin\Debug\net6.0\appsettings.json
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\bin\Debug\net6.0\Presentation Layer.staticwebassets.runtime.json
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\bin\Debug\net6.0\Presentation Layer.exe
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\bin\Debug\net6.0\Presentation Layer.deps.json
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\bin\Debug\net6.0\Presentation Layer.runtimeconfig.json
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\bin\Debug\net6.0\Presentation Layer.dll
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\bin\Debug\net6.0\Presentation Layer.pdb
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\obj\Debug\net6.0\Presentation Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\obj\Debug\net6.0\Presentation Layer.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\obj\Debug\net6.0\Presentation Layer.AssemblyInfo.cs
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\obj\Debug\net6.0\Presentation Layer.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\obj\Debug\net6.0\Presentation Layer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\obj\Debug\net6.0\Presentation Layer.RazorAssemblyInfo.cache
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\obj\Debug\net6.0\Presentation Layer.RazorAssemblyInfo.cs
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\obj\Debug\net6.0\Presentation Layer.sourcelink.json
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\obj\Debug\net6.0\staticwebassets\msbuild.Presentation Layer.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\obj\Debug\net6.0\staticwebassets\msbuild.build.Presentation Layer.props
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Presentation Layer.props
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Presentation Layer.props
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\obj\Debug\net6.0\scopedcss\bundle\Presentation Layer.styles.css
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\obj\Debug\net6.0\scopedcss\projectbundle\Presentation Layer.bundle.scp.css
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\obj\Debug\net6.0\Presentation Layer.dll
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\obj\Debug\net6.0\refint\Presentation Layer.dll
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\obj\Debug\net6.0\Presentation Layer.pdb
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\obj\Debug\net6.0\Presentation Layer.genruntimeconfig.cache
+C:\Users\youse\source\repos\APIProject\Football Entertainment System\Presentation Layer\obj\Debug\net6.0\ref\Presentation Layer.dll

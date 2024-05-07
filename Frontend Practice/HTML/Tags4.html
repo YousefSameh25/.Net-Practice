@@ -1,0 +1,82 @@
+<html>
+
+
+<head>
+    <title> Tags4 </title>
+</head>
+
+<body>
+
+    <form method="post"> 
+    <!-- Input tag -->
+    <p> Name <input type="text" id="name" name="name"> </p>
+    <!-- This constraints we can put them here or as attributes on properties and Tag helper will write this code for me-->
+    <p> Age <input type="number" min="15" max="50" step="5"> </p>  
+    <p> Email <input type="email"  id="email" name="email"> </p> 
+    <p> Password <input type="password" id="password" name="password"> </p>  
+
+    <input type="radio" name="sex"> Male
+    <br>
+    <input type="radio" name="sex" > Female
+    <br>
+
+    <p> <input type = "checkbox"> Student </p>
+    <p> <input type = "checkbox"> Teacher </p>
+
+
+    <p> Choose color <input type="color"> </p>
+
+    <p> Birth date <input type="date"> </p>
+
+    <p> File <input type="file"></p>
+
+    <p> Search <input type="search"> </p>
+
+    <p> Phone number <input type="tel" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}"></p>
+
+    <p> URL <input type="url"></inpit></p>
+
+
+    <!-- Select tag -->
+
+    <select size="2" multiple>
+        <option value="1" selected> HTML </option>
+        <option value="2"> CSS </option>
+        <option value="3"> JS </option>
+    </select>
+    <br>
+    <br>
+
+    
+    <!-- datalist tag -->
+    <input list="x" placeholder="Input with select list">
+    <datalist id="x">
+        <option value="HTML"> </option>
+        <option value="CSS"> </option>
+    </datalist>
+
+
+    <!-- Some attributes for form -->
+
+    <p> <input type="text" value="Readonly field" readonly> </p>
+
+    <p> <input type="text" value="Size = 5" size="5"> </p>
+    <p> <input type="text" value="Size = 10" size="10"> </p>
+
+    <p> <input type="text" value="max entered length is 5" maxlength="5"></p>
+
+    <p> <input type ="text" value="Auto focus" autofocus></p>
+
+    <p> <input type="text" value="Auto complete" autocomplete = "on"></p>
+
+    <p> <input type="text" placeholder="Enter you name" required> </p>
+
+    <p> Choose more than 1 file <input type="file" multiple> </p>
+
+    <input type="submit">
+    <input type="reset">
+    </form>
+
+</body>
+
+</html>

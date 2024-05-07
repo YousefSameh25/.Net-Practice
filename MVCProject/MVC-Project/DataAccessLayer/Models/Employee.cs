@@ -33,6 +33,7 @@ namespace DataAccessLayer.Models
 
         public string ImageName { get; set; }
 
+
         [ForeignKey("Department")]
         public int? DepartmentId { get; set; }
 
