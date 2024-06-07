@@ -9,7 +9,7 @@ namespace Shallow___Deep_copy
         static void Main(string[] args)
         {
 
-            // Think about data type (refernece of value type) and ( Mutable or immutable) 
+            // Think about data type (reference of value type) and (Mutable or immutable) 
             // to identify the behavioral of Array.Clone().
 
 

@@ -13,9 +13,9 @@
             {
                 Console.WriteLine("Divided by zero");
             }
-            finally // Will be executed however an exception has occured or not.
+            finally // Will be executed however an exception has occurred or not.
             {
-                // Disconnect the connection || dealocate || Free.
+                // Disconnect the connection || deallocate || Free.
                 Console.WriteLine("Close everything");
             }
         }

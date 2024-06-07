@@ -1,12 +1,13 @@
 ﻿namespace Sort_Objects
 {
     // We can specify the type IComparable <point>
-    class point : IComparable
+    class point : IComparable<point>
     {
         public int x { get; set; }
         public string p { get; set; }
 
-        public int CompareTo(object obj)
+
+        public int CompareTo(point? other)
         {
             // Can handle the logic by myself:
 
@@ -21,11 +22,10 @@
 
             // Or use CompareTo function which is in all data types.
 
-            point p2 = obj as point;
-            return p.CompareTo(p2.p);
-            // P < p2.p => -1
-            // P > p2.p => 1
-            // P = p2.p => 0
+            return p.CompareTo(other.p);
+            // P < other.p => -1
+            // P > other.p => 1
+            // P = other.p => 0
             // Internal logic => when return value is 1 that means do swap.
         }
 

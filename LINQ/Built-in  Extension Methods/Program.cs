@@ -310,14 +310,14 @@ namespace Built_in__Extension_Methods
             #endregion
 
 
-            // Any extension method from the following returns 1 object is (immediate excution).
+            // Any extension method from the following returns 1 object is (immediate execution).
             #region First
             List<object> objects = new List<object>();
 
-            // If there is no result an exception will be thrown as the return value is nullable object
+            // If there is no result an exception will be thrown as the return value is null-able object
             var front = objects.First();
 
-            // Will return the defualt value for the datatype of the sequence (here is null) with no exception.
+            // Will return the default value for the data type of the sequence (here is null) with no exception.
             var front2 = objects.FirstOrDefault();
 
             // Handle if the list is empty.

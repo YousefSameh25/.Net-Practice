@@ -1,7 +1,8 @@
 ﻿namespace HardWork
 {
-    [Flags] //Attribute! - to print the mix color to its representitive colors.
+    [Flags] //Attribute! - to print the mix color to its representative colors.
     // Enum enhances the code readability
+    // Enum = Enumeration
     public enum Color : int // could be any numerical data type.
     {
         // Values must has single 1 in its binary representation.
@@ -17,14 +18,14 @@
     {
         static void Main(string[] args)
         {
-            Color color = Color.Red | Color.Blue;
+            Color color = Color.Red | Color.Blue; // add color.
             Console.WriteLine(color);
 
             color ^= Color.Blue; // remove blue color.
 
             Console.WriteLine(color);
 
-            Color color2 = (Color)4; // Blue color.
+            Color color2 = (Color) 4; // Blue color.
             Console.WriteLine(color2);
 
 
@@ -34,7 +35,7 @@
             if (flag)
                 Console.WriteLine($"Color is {x}");
 
-            // Note: In the database we will store the values not the lables.
+            // Note: In the database we will store the values not the labels.
         }
     }
 }

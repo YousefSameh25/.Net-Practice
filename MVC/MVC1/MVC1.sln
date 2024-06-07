@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC1", "MVC1.csproj", "{F78
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC2", "..\MVC2\MVC2.csproj", "{A264D252-7D62-46AF-A637-53BB658E350C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try some codes", "..\Try some codes\Try some codes.csproj", "{31E69141-4557-4DF4-BD8D-16C770C2CA39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Try some codes", "..\Try some codes\Try some codes.csproj", "{31E69141-4557-4DF4-BD8D-16C770C2CA39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API1", "..\API1\API1.csproj", "{7F195D54-07A9-49CF-B8FE-7C7D34BEE576}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{31E69141-4557-4DF4-BD8D-16C770C2CA39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31E69141-4557-4DF4-BD8D-16C770C2CA39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31E69141-4557-4DF4-BD8D-16C770C2CA39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F195D54-07A9-49CF-B8FE-7C7D34BEE576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F195D54-07A9-49CF-B8FE-7C7D34BEE576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F195D54-07A9-49CF-B8FE-7C7D34BEE576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F195D54-07A9-49CF-B8FE-7C7D34BEE576}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

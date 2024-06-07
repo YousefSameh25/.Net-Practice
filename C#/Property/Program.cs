@@ -4,28 +4,29 @@ namespace Property
 {
     class Human
     {
-        // Auto implenemted property
+        // Auto implemented property
         // Backing field , hidden private attribute.
         public string Name { get; set; }
 
-        // Best practise when you do not have to login in seters and geters.
+        // Best practice when you do not have to login in seters and geters.
         // Full property
+        private int _id;
         public int id
         {
             get
             {
-                return id;
+                return _id;
             }
             private set
             {
-                id = value;
+                _id = value;
             }
         }
 
         // Create shallow copy.
         public Human Clone()
         {
-              // This function is at object class.
+            // This function is at object class.
             return MemberwiseClone() as Human;
         }
     }

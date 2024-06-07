@@ -1,0 +1,50 @@
+﻿@model List<Department>
+@{
+    ViewData["Title"] = "Index";
+    SelectList deptList = new SelectList(Model, "Id", "Name");
+}
+
+<head>
+
+    <link href="~/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+
+<h1> Departments </h1>
+
+<select asp-items="deptList" id="dept" onchange="GetEmployee()">
+</select>
+
+<br />
+<br />
+
+<select id="emps" name="emps">
+</select>
+
+
+
+
+@section Scripts {
+    <script>
+        function GetEmployee() {
+
+            var deptId = document.getElementById("dept").value;
+            $.ajax(
+                {
+                    url: "/Ajax/GetEmployees",
+                    data: { "deptId": deptId },
+                    success: function (result) {
+                        console.log(result);
+                        document.getElementById("emps").innerHTML = "";
+                        for (let emp of result) {
+                            document.getElementById("emps").innerHTML +=
+                                "<option value='" + emp.id + "'> " + emp.fullName + " </option>"
+                        }
+                    }
+                }
+            );
+        }
+    </script>
+}
+

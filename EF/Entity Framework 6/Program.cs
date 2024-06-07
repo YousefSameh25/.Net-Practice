@@ -34,7 +34,7 @@ namespace Entity_Framework
             that's the responsibility of Expression class which encapsulates many lambda expressions on it
             then convert it to SQL query then execute this query and retrieve the result in deferred execution.
 
-            - The function will be executed using deffered execution.
+            - The function will be executed using differed execution.
             - The where will be applied on the server side (DB)
              */
 
@@ -44,7 +44,7 @@ namespace Entity_Framework
             - Important note
             - Here the where is from Enumerable class not Queryable.
             - The function will be executed using eager execution.
-            - The where will be applied on the cilent side (Application)
+            - The where will be applied on the client side (Application)
             */
 
 

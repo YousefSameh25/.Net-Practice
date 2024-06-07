@@ -40,10 +40,7 @@
             #endregion
 
             #region Anonymous function
-            List<int> list4 = FilterNumbers(list, delegate (int num)
-            {
-                return num > 0;
-            });
+            List<int> list4 = FilterNumbers(list, delegate (int num) { return num > 0; });
             #endregion
 
             #region Lambda expression
@@ -58,7 +55,7 @@
             #region Built-in delegates
             // Achieve the standardization.
 
-            // Look at the defenition.
+            // Look at the definition.
             Predicate<int> del = i => i > 0;
 
             // There are 17 Func delegate.

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VSxpvKK/AROtneOYtUIJ+qGywTqRoGSSJb5nlDPcT9Y=",
+  "Hash": "YBSGgP1UmZ1bNNiDQlIPACrqgjeRXC+M8616kOKGYB4=",
   "Source": "MVC2",
   "BasePath": "_content/MVC2",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\youse\\source\\repos\\MVC\\MVC2\\wwwroot\\css\\style.css",
+      "SourceId": "MVC2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\youse\\source\\repos\\MVC\\MVC2\\wwwroot\\",
+      "BasePath": "_content/MVC2",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
       "Identity": "C:\\Users\\youse\\source\\repos\\MVC\\MVC2\\wwwroot\\favicon.ico",

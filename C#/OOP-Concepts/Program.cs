@@ -55,7 +55,7 @@
             Console.WriteLine(this.weight + " " + this.height);
         }
 
-        public void Think()
+        public new void Think()
         {
             Console.WriteLine("Human is thinking");
         }
@@ -82,7 +82,7 @@
             this.salary = salary;
         }
 
-        public void Move()
+        public new void Move()
         {
             // This function exists in parent and grand 
             // Here you will see your parent only
@@ -104,8 +104,8 @@
             h.Eating();
 
             // Note:
-            // You will not able to call any inhereted function using human object except by
-            // using base refernce in human class.
+            // You will not able to call any inherited function using human object except by
+            // using base reference in human class.
 
             // ================================================================================
 

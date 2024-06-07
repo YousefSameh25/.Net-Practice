@@ -9,8 +9,6 @@ namespace Code_first
 {
     internal class Context : DbContext
     {
-
-
         public Context() : base("Data Source=YOUSEF;Initial Catalog=CodeFirstDB;Integrated Security=True")
         {
 

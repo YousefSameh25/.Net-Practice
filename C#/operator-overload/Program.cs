@@ -2,12 +2,11 @@
 {
     class complex
     {
-
         public int real { get; set; }
         public int img { get; set; }
 
         // Must be static, why? to provide an option to create function takes for ex(5, c1)
-        public static complex operator +(complex c1, complex c2)
+        public static complex operator + (complex c1, complex c2)
         {
             complex res = new complex();
             res.real = c1.real + c2.real;

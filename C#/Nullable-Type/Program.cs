@@ -4,7 +4,7 @@
     {
         static void Fun1(ref string a)
         {
-            // The given refernce type will be changed as the string is immutable.
+            // The given reference type will be changed as the string is immutable.
             a = "meow";
         }
         static void Main(string[] args)
@@ -46,8 +46,8 @@
             int z = y!; // That means i tell the compiler that um sure that y is not null.
 
             Nullable<int> nu = new Nullable<int>();
-            // Nullable type is a struct which has 2 variables one is the value and the other is a flag which tell me wheather the value is null or not.
-            // In case os null the value will be 0 but the flag (HasValue) will be true.
+            // Nullable type is a struct which has 2 variables one is the value and the other is a flag which tell me whether the value is null or not.
+            // In case of null the value will be 0 but the flag (HasValue) will be true.
 
         }
     }

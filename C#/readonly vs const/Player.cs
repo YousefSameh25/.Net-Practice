@@ -10,12 +10,13 @@ namespace readonly_vs_const
     {
         public const int ConstNumber = 5;
 
-        public readonly int ReadOnlyNumber; // Can be initialized here.
+        public readonly int ReadOnlyNumber; // Can be initialized here. same as final
 
 
         public Player(int ReadOnlyValue)
         {
             // The readonly can be accessed only in the constructor only.
+            // can be initialized at runtime.
             ReadOnlyNumber = ReadOnlyValue;
         }
     }

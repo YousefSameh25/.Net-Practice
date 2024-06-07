@@ -18,7 +18,7 @@
 
             var y = x;
 
-            // Useing var here is better as the readability is the same but we write short statement.
+            // Using var here is better as the readability is the same but we write short statement.
             Dictionary<int, SortedSet<int>> dic = new Dictionary<int, SortedSet<int>>();
             var dic2 = new Dictionary<int, SortedSet<int>>();
 
@@ -32,9 +32,7 @@
 
 
             // We can not use var in functions (parameters type, return type).
-
             Console.WriteLine(Test());
-
         }
     }
 }

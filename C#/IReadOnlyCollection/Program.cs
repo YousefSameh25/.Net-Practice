@@ -11,7 +11,7 @@
             // Valid for read only.
             foreach (var item in list2)
                 Console.WriteLine(item);
-
+              
             // Not valid to modify:
             // list2.Add(39);
             // list2[0] = 4;
@@ -19,7 +19,7 @@
             // General informations:
 
             /*
-                What it mean means of this line 'Animal a = new Dog();' ?
+                What does it mean by this line 'Animal a = new Dog();' ?
                 It means that i am caring of members(data fields, functions) of the Animal class,
                 (Very Important) But i may use a function of data field of dog at the runtime.
 
@@ -27,7 +27,7 @@
                 When using this Dog d = new Dog() => i am sure that i want Dog members only.
 
                 Summary:
-                Super s = new Child() => the refernce s is responsible for what members do you want.
+                Super s = new Child() => the reference s is responsible for what members do you want.
                 when you want members of the child you have to cast:
                 (Child)s.ChildMember.
 
@@ -39,9 +39,9 @@
             */
 
             /*
-                 After this general infromation 
+                 After this general information 
                  when we use IReadOnlyCollection<int> list2 = list;
-                 that means i am only caring about interface members and defention
+                 that means i am only caring about interface members and definition
             */
 
             /*

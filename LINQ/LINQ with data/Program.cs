@@ -11,7 +11,7 @@
             {
                 Console.WriteLine($"Name: {item.Name} , Hours: {item.Hours}");
             }
-            // We filtered cources and the return is a full object of course, what if i want to 
+            // We filtered courses and the return is a full object of course, what if i want to 
             // select just few attributes? Creating extension method takes course and return name.
 
             Console.WriteLine("=======================================");

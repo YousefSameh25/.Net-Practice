@@ -34,7 +34,7 @@
     }
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             IReadable read = new Book();
             read.value = 1;
@@ -45,7 +45,7 @@
             Book b = new Book();
             b.value = 2;
             b.Write2();
-            // b.Write1(); not valid as refernce book hasn't got Write1()
+            // b.Write1(); not valid as reference book hasn't got Write1()
         }
     }
 }

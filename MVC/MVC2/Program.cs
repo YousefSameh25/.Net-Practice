@@ -1,3 +1,5 @@
+using System.Text.Json.Serialization;
+
 namespace MVC2
 {
     public class Program
@@ -12,6 +14,12 @@ namespace MVC2
             builder.Services.AddSession(conf =>
             {
                 conf.IdleTimeout = TimeSpan.FromMinutes(20); // Add configurations for session
+            });
+
+            builder.Services.AddControllers().AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+                options.JsonSerializerOptions.WriteIndented = true;
             });
 
             var app = builder.Build();
@@ -29,9 +37,15 @@ namespace MVC2
 
             app.UseAuthorization();
 
+            // My own route.
+            app.MapControllerRoute(
+                name: "My Own Route",
+                pattern: "sameh", new { controller = "Route", action = "Index" });
+
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
+
 
             app.Run();
 

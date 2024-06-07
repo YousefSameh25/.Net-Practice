@@ -25,7 +25,7 @@ namespace Code_first
 
 
             // If we change any class structure and run a query we will get an exception?
-            // as the current class structure is not the same as the stucture in snapshot at 
+            // as the current class structure is not the same as the structure in snapshot at 
             // migrationHistory table.
 
 

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MVC2.Data;
 
 namespace MVC2.Controllers
 {
@@ -22,9 +23,17 @@ namespace MVC2.Controllers
         Note: Ajax may call an action that return view or partial view then parse it within the current HTML page.
          
          */
-        public IActionResult Index()
+
+        public IActionResult GetDepartments()
         {
-            return View();
+            StaticData staticData = new StaticData();
+            return View(staticData.Departments);
+        }
+
+        public IActionResult GetEmployees(int deptId)
+        {
+            StaticData staticData = new StaticData();
+            return Json(staticData.Employees.Where(E => E.Department.Id == deptId));
         }
     }
 }

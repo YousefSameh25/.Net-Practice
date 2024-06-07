@@ -10,7 +10,7 @@ namespace Icomparer
     }
 
     class PointSort : IComparer<Point>
-    {
+    { 
         public int Compare(Point? P1, Point? P2)
         {
             // Sort X ascending, Y descending.

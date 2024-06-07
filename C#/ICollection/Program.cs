@@ -99,7 +99,6 @@ namespace Icollection
             #region Multi Map
             // Not exists but we can can use dictionary of list '<int, List <int>>' 
             #endregion
-
         }
     }
 }

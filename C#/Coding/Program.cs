@@ -9,16 +9,16 @@
 
     class PointSort : IComparer<Point>
     {
-
         public int Compare(Point? P1, Point? P2)
         {
             // Sort X ascending, Y descending.
             if (P1.x != P2.x)
                 return P1.x.CompareTo(P2.x);
+
             return -P1.y.CompareTo(P2.y);
         }
-
     }
+
     internal class Program
     {
         static void Main()

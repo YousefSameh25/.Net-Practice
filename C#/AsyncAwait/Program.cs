@@ -2,9 +2,9 @@
 {
     internal class Program
     {
-        static void Main()
+        static async Task Main()
         {
-            PrintOdd();
+            await PrintOdd();
 
             for (int i = 0; i < 1000; i++)
                 Console.Write('X');

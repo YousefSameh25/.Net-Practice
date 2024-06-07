@@ -97,7 +97,7 @@ namespace Threading
               // I used the those two lines to make the code continues although the result has not been calculated yet.
             */
 
-            // The next lines do the same thing like the privous lines.
+            // The next lines do the same thing like the previous lines.
 
             int res = await Task.Run(() => HasReturn());
             Console.WriteLine(res);

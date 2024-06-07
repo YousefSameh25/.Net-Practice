@@ -8,7 +8,7 @@
         // Indexer is a property but without name.
         // May be [string arg1, int arg2, .....]
         // Indexer to get the salary by employee's name.
-        public int this[string name] // This means what data type will use this indexer.
+        public int this [string name] // This means what data type will use this indexer.
         {
             get
             {

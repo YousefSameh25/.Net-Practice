@@ -129,13 +129,13 @@
         {
             public int x, y;
 
-
+            // int x = (int)p;
             public static explicit operator int(point x)
             {
                 return x.x;
             }
 
-
+            // point p = 1;
             public static implicit operator point(int x)
             {
                 return new point { x = x, y = x };
@@ -159,6 +159,12 @@
 
             for (int i = 0; i < list.Length; i++)
                 list.GetByIndex(i);
+
+            //===============================
+
+            point p = 1;
+
+            int x = (int) p;
 
         }
     }

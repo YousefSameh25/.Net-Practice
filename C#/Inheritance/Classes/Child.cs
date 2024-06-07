@@ -17,11 +17,16 @@ namespace Inheritance.Classes // When we create a new folder a new sub namespace
         }
 
         // new here will hide the Product function which in Parent class.
-        // new will not affect the the execution.
+        // new will not affect the execution.
         public new int Product()
         {
             return x * y * z;
             // return base.Product(x , y) * z;
+        }
+
+        public override int Sum()
+        { 
+            return x + y + z;
         }
 
         public override string ToString()

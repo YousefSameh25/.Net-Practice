@@ -25,6 +25,12 @@ namespace Inheritance.Classes
             return x * y;
         }
 
+        public virtual int Sum() // Virtual allows overriding.
+        {
+            return x + y;
+        }
+
+
         public override string ToString()
         {
             return $"({x}, {y})";

@@ -11,7 +11,7 @@
         // When this constructed created you can not use the default one
         public Complex(int x, int y)
         {
-            // Can not miss initializing one of the attriutes
+            // Can not miss initializing one of the attributes
             this.x = x;
             this.y = y;
         }
@@ -29,13 +29,13 @@
 
             // Console.WriteLine(C1.x);  invalid as it does not have initial value.
 
-            Complex C2 = new Complex(1, 2); // Call defulat constructor.
+            Complex C2 = new Complex(1, 2); // The right hand side calls the constructor only.
 
-            Complex C3 = default; // Call defulat constructor.
+            Complex C3 = default; // Call default constructor.
 
             Complex C4 = C2; // Copping the values from C2 to C4.
 
-            Console.WriteLine(C2); // Calles the ToString function.
+            Console.WriteLine(C2); // Calls the ToString function.
 
         }
     }
