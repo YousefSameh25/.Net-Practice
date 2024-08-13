@@ -1,0 +1,14 @@
+C:\Users\youssef.sameh\source\repos\Singleton\Singleton\bin\Debug\net8.0\Singleton.exe
+C:\Users\youssef.sameh\source\repos\Singleton\Singleton\bin\Debug\net8.0\Singleton.deps.json
+C:\Users\youssef.sameh\source\repos\Singleton\Singleton\bin\Debug\net8.0\Singleton.runtimeconfig.json
+C:\Users\youssef.sameh\source\repos\Singleton\Singleton\bin\Debug\net8.0\Singleton.dll
+C:\Users\youssef.sameh\source\repos\Singleton\Singleton\bin\Debug\net8.0\Singleton.pdb
+C:\Users\youssef.sameh\source\repos\Singleton\Singleton\obj\Debug\net8.0\Singleton.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youssef.sameh\source\repos\Singleton\Singleton\obj\Debug\net8.0\Singleton.AssemblyInfoInputs.cache
+C:\Users\youssef.sameh\source\repos\Singleton\Singleton\obj\Debug\net8.0\Singleton.AssemblyInfo.cs
+C:\Users\youssef.sameh\source\repos\Singleton\Singleton\obj\Debug\net8.0\Singleton.csproj.CoreCompileInputs.cache
+C:\Users\youssef.sameh\source\repos\Singleton\Singleton\obj\Debug\net8.0\Singleton.dll
+C:\Users\youssef.sameh\source\repos\Singleton\Singleton\obj\Debug\net8.0\refint\Singleton.dll
+C:\Users\youssef.sameh\source\repos\Singleton\Singleton\obj\Debug\net8.0\Singleton.pdb
+C:\Users\youssef.sameh\source\repos\Singleton\Singleton\obj\Debug\net8.0\Singleton.genruntimeconfig.cache
+C:\Users\youssef.sameh\source\repos\Singleton\Singleton\obj\Debug\net8.0\ref\Singleton.dll

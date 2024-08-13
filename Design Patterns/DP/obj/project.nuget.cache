@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "3QIlPV0SSNTU1RujW04AE430MeDkxIAlypcs3G94YbGcCyHvu5kreNEOGIkK72H1LwOhE5Tc4nmp0gFobh7xjw==",
+  "dgSpecHash": "6g4bEDIuINM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\youse\\source\\repos\\Design Patterns\\DP\\DP.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\youssef.sameh\\source\\repos\\DesignPatterns\\.Net-Practice\\Design Patterns\\DP\\DP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\youssef.sameh\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.31\\microsoft.windowsdesktop.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\youssef.sameh\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.31\\microsoft.netcore.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\youssef.sameh\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.31\\microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\youssef.sameh\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.31\\microsoft.netcore.app.host.win-x64.6.0.31.nupkg.sha512"
+  ],
   "logs": []
 }
