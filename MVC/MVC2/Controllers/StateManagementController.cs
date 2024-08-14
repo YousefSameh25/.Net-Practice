@@ -18,7 +18,7 @@ namespace MVC2.Controllers
 
         1 - The server creates a session with sessionId between itself and the browser.
         2 - The sessionId will be kept in a cookie with the client browser.
-        3 - To keep save some data from being destroying we can use many ways:
+        3 - To keep save some data from being destroyed we can use many ways:
              1 - Session.
              2 - Cookies.
              3 - Temp data.
@@ -97,7 +97,7 @@ namespace MVC2.Controllers
             cookieOptions.Expires = DateTimeOffset.Now.AddHours(1);
             
             Response.Cookies.Append("Title", ".Net developer", cookieOptions); // Persistent cookie.
-
+            
             return Content("Cookie has been saved!");
             // What if we want to store an object not string?
             // We can use JsonConvert.SerializeObject(obj);

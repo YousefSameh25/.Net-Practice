@@ -36,10 +36,8 @@
         }
     }
 
-
     internal class Program
     {
-
         // generic function.
         static T GetLast<T>(T[] arr)
         {

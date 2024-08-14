@@ -32,7 +32,7 @@ namespace EF_Core
                     Name = d.Name,
                     branchID = d.branchID,
                     branch = d.branch,
-                    // copy the employess
+                    // copy the Employees
                     Employees = d.Employees,
                 });
             #endregion
@@ -42,7 +42,7 @@ namespace EF_Core
             foreach (var Department in Q3)
             {
                 Console.WriteLine(Department.Name);
-                // Lazy loading here is disable by defualt for performance problems
+                // Lazy loading here is disable by default for performance problems
                 /*
                   lazy loading means we get the collection when we iterate on it.
                   Now the collection is null (يعني مجابش اصلا الكوليكشن في وقت ما جيت الف عليه)
@@ -66,7 +66,7 @@ namespace EF_Core
 
             /*
              There are 4 options to get this collection
-             1) using Include extented method (eager loading).
+             1) using Include method (eager loading).
              - ThenInclude works on the last included collection.
             Problem of include is that when I write context.Departments.Include(d => d.employess) 
             {
@@ -75,6 +75,8 @@ namespace EF_Core
                 then filter.
             }
             */
+
+            // https://learn.microsoft.com/en-us/ef/core/querying/related-data/
 
         }
     }

@@ -156,9 +156,5 @@ namespace MVC2.Controllers
             // Passing the view name and the model
             return View("AllProducts", PSD.GetAll());
         }
-
-
-
-
     }
 }

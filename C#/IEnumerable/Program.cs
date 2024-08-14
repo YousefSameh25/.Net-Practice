@@ -4,7 +4,7 @@ using System.Collections;
 namespace iEnumerable
 {
 
-    class List : IEnumerable // To compelete standardization why? 
+    class List : IEnumerable // To complete standardization why? 
     {              //To let me know in the main that the class List has a function called GetEnumerator()
         int[] arr;
         int LastIndex;

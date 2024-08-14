@@ -28,8 +28,6 @@ namespace Code_first
             // as the current class structure is not the same as the structure in snapshot at 
             // migrationHistory table.
 
-
-
         }
     }
 }

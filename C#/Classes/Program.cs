@@ -27,7 +27,7 @@
         // arguments when you run a console application.
         static void Main(string[] args)
         {
-            point P; // refernce
+            point P; // reference
             P = null;
             P = default; // Null
             P = new point(); // Stored in heap

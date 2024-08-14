@@ -29,7 +29,7 @@ namespace Entity_Framework
 
             /* 
              Why Where return IQueryable? 
-            As here we are deal with DB not data in memory so we need a one more layer to
+            As here we are dealing with DB not data in memory so we need a one more layer to
             convert lambda expression to SQL query and then execute this query 
             that's the responsibility of Expression class which encapsulates many lambda expressions on it
             then convert it to SQL query then execute this query and retrieve the result in deferred execution.
@@ -74,7 +74,7 @@ namespace Entity_Framework
                 - Object at context's cache => use Find()
 
                 - Object is not at context's cache => use Single() because the Find() will check the cache 
-                then gets the object from DB but Single() will get the object dirctly from DB.
+                then gets the object from DB but Single() will get the object directly from DB.
 
 
                 Note that cache data may be different from DB at this case i should use Single() when i want 
@@ -172,6 +172,7 @@ namespace Entity_Framework
 
             #region Using SP & Function
 
+            //                                 Is auto implemented using designer.
             IQueryable<string> query4 = context.GetEmployees(300); // 300 is the project id.
 
             foreach (string fullname in query4)
@@ -215,9 +216,8 @@ namespace Entity_Framework
                 }
             } while (!successed);
 
-
             // When we enable Concurrency Mode that will affect the performance in terms of memory
-            // because each object we will retrive from DB will be stored 2 times at the memory
+            // because each object we will retrieve from DB will be stored 2 times at the memory
             // Old version which will be useful when SaveChanges() comes to DB and
             // check if this old version is the same in the DB or not.
             // if yes so save the changes

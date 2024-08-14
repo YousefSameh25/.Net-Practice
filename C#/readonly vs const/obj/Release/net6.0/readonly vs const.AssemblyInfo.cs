@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("readonly vs const")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fdc0e52bc53065be9fc682c1c1235a58fce028c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4185134e21f785fd8540d434467e877a1767122")]
 [assembly: System.Reflection.AssemblyProductAttribute("readonly vs const")]
 [assembly: System.Reflection.AssemblyTitleAttribute("readonly vs const")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

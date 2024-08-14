@@ -8,8 +8,6 @@ namespace Inheritance.Classes
 {
     internal class Parent
     {
-
-
         // Use automatic prop when we do not want to validate.
         public int x { get; set; }
         public int y { get; set; }

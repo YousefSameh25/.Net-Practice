@@ -13,6 +13,7 @@ namespace EF_Core
 
         public int branchID { get; set; }
 
+
         public Branch branch { get; set; }
 
         public virtual ICollection<Employee> Employees { get; set; }

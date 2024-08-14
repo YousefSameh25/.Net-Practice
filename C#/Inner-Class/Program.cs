@@ -1,6 +1,5 @@
 ﻿namespace Inner_Class
 {
-
     class X
     {
         int x;

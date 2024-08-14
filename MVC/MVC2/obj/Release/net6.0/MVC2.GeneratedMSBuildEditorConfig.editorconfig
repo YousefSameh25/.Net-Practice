@@ -18,12 +18,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\youse\source\repos\MVC\MVC2
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/youse/source/repos/MVC/MVC2/Views/Ajax/GetDepartments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWpheFxHZXREZXBhcnRtZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/youse/source/repos/MVC/MVC2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/youse/source/repos/MVC/MVC2/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/youse/source/repos/MVC/MVC2/Views/ModelBinding/ReadStringUsingFormTag.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxCaW5kaW5nXFJlYWRTdHJpbmdVc2luZ0Zvcm1UYWcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/youse/source/repos/MVC/MVC2/Views/Product/AllProducts.cshtml]
