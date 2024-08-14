@@ -1,0 +1,15 @@
+C:\Users\youssef.sameh\source\repos\DesignPatterns\.Net-Practice\Design Patterns\Flyweight\bin\Debug\net8.0\Flyweight.exe
+C:\Users\youssef.sameh\source\repos\DesignPatterns\.Net-Practice\Design Patterns\Flyweight\bin\Debug\net8.0\Flyweight.deps.json
+C:\Users\youssef.sameh\source\repos\DesignPatterns\.Net-Practice\Design Patterns\Flyweight\bin\Debug\net8.0\Flyweight.runtimeconfig.json
+C:\Users\youssef.sameh\source\repos\DesignPatterns\.Net-Practice\Design Patterns\Flyweight\bin\Debug\net8.0\Flyweight.dll
+C:\Users\youssef.sameh\source\repos\DesignPatterns\.Net-Practice\Design Patterns\Flyweight\bin\Debug\net8.0\Flyweight.pdb
+C:\Users\youssef.sameh\source\repos\DesignPatterns\.Net-Practice\Design Patterns\Flyweight\obj\Debug\net8.0\Flyweight.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youssef.sameh\source\repos\DesignPatterns\.Net-Practice\Design Patterns\Flyweight\obj\Debug\net8.0\Flyweight.AssemblyInfoInputs.cache
+C:\Users\youssef.sameh\source\repos\DesignPatterns\.Net-Practice\Design Patterns\Flyweight\obj\Debug\net8.0\Flyweight.AssemblyInfo.cs
+C:\Users\youssef.sameh\source\repos\DesignPatterns\.Net-Practice\Design Patterns\Flyweight\obj\Debug\net8.0\Flyweight.csproj.CoreCompileInputs.cache
+C:\Users\youssef.sameh\source\repos\DesignPatterns\.Net-Practice\Design Patterns\Flyweight\obj\Debug\net8.0\Flyweight.sourcelink.json
+C:\Users\youssef.sameh\source\repos\DesignPatterns\.Net-Practice\Design Patterns\Flyweight\obj\Debug\net8.0\Flyweight.dll
+C:\Users\youssef.sameh\source\repos\DesignPatterns\.Net-Practice\Design Patterns\Flyweight\obj\Debug\net8.0\refint\Flyweight.dll
+C:\Users\youssef.sameh\source\repos\DesignPatterns\.Net-Practice\Design Patterns\Flyweight\obj\Debug\net8.0\Flyweight.pdb
+C:\Users\youssef.sameh\source\repos\DesignPatterns\.Net-Practice\Design Patterns\Flyweight\obj\Debug\net8.0\Flyweight.genruntimeconfig.cache
+C:\Users\youssef.sameh\source\repos\DesignPatterns\.Net-Practice\Design Patterns\Flyweight\obj\Debug\net8.0\ref\Flyweight.dll

@@ -1,0 +1,14 @@
+C:\Users\youssef.sameh\source\repos\DesignPatterns\Adapter\bin\Debug\net8.0\Adapter.exe
+C:\Users\youssef.sameh\source\repos\DesignPatterns\Adapter\bin\Debug\net8.0\Adapter.deps.json
+C:\Users\youssef.sameh\source\repos\DesignPatterns\Adapter\bin\Debug\net8.0\Adapter.runtimeconfig.json
+C:\Users\youssef.sameh\source\repos\DesignPatterns\Adapter\bin\Debug\net8.0\Adapter.dll
+C:\Users\youssef.sameh\source\repos\DesignPatterns\Adapter\bin\Debug\net8.0\Adapter.pdb
+C:\Users\youssef.sameh\source\repos\DesignPatterns\Adapter\obj\Debug\net8.0\Adapter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youssef.sameh\source\repos\DesignPatterns\Adapter\obj\Debug\net8.0\Adapter.AssemblyInfoInputs.cache
+C:\Users\youssef.sameh\source\repos\DesignPatterns\Adapter\obj\Debug\net8.0\Adapter.AssemblyInfo.cs
+C:\Users\youssef.sameh\source\repos\DesignPatterns\Adapter\obj\Debug\net8.0\Adapter.csproj.CoreCompileInputs.cache
+C:\Users\youssef.sameh\source\repos\DesignPatterns\Adapter\obj\Debug\net8.0\Adapter.dll
+C:\Users\youssef.sameh\source\repos\DesignPatterns\Adapter\obj\Debug\net8.0\refint\Adapter.dll
+C:\Users\youssef.sameh\source\repos\DesignPatterns\Adapter\obj\Debug\net8.0\Adapter.pdb
+C:\Users\youssef.sameh\source\repos\DesignPatterns\Adapter\obj\Debug\net8.0\Adapter.genruntimeconfig.cache
+C:\Users\youssef.sameh\source\repos\DesignPatterns\Adapter\obj\Debug\net8.0\ref\Adapter.dll
