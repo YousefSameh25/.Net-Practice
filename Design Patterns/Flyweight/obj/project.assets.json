@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\youssef.sameh\\.nuget\\packages\\": {}
+    "C:\\Users\\youse\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\youssef.sameh\\source\\repos\\DesignPatterns\\.Net-Practice\\Design Patterns\\Flyweight\\Flyweight.csproj",
+      "projectUniqueName": "C:\\Users\\youse\\source\\repos\\Design Patterns\\Flyweight\\Flyweight.csproj",
       "projectName": "Flyweight",
-      "projectPath": "C:\\Users\\youssef.sameh\\source\\repos\\DesignPatterns\\.Net-Practice\\Design Patterns\\Flyweight\\Flyweight.csproj",
-      "packagesPath": "C:\\Users\\youssef.sameh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\youssef.sameh\\source\\repos\\DesignPatterns\\.Net-Practice\\Design Patterns\\Flyweight\\obj\\",
+      "projectPath": "C:\\Users\\youse\\source\\repos\\Design Patterns\\Flyweight\\Flyweight.csproj",
+      "packagesPath": "C:\\Users\\youse\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\youse\\source\\repos\\Design Patterns\\Flyweight\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\youssef.sameh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\youse\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -41,11 +40,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -67,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
